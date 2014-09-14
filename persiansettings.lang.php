@@ -9,7 +9,7 @@
 $l['setting_group_onlineoffline'] = 'حاضر/غایب بودن انجمن';
 $l['setting_group_onlineoffline_desc'] = 'این تنظمیات به شما اجازه می‌دهد تا انجمن‌هایتان را به صورت عمومی حاضر یا غایت کنید، و همچنین به شما اجازه می‌دهد تا دلیلی برای خاموش کردن انجمن بنویسید.';
 
-$l['setting_boardclosed'] = 'Board Closed';
+$l['setting_boardclosed'] = 'انجمن بسته است';
 $l['setting_boardclosed_desc'] = 'If you need to close your forums to make some changes or perform an upgrade, this is the global switch. Viewers will not be able to view your forums, however, they will see a message with the reason you specify below. Administrators will still be able to view the forums.';
 $l['setting_boardclosed_reason'] = 'Board Closed Reason';
 $l['setting_boardclosed_reason_desc'] = 'If your forum is closed, you can set a message here that your visitors will be able to see when they visit your forums.';
