@@ -52,10 +52,10 @@ $l['setting_faxno_desc'] = 'اگر شما یک شماره فکر دارید، آ
 $l['setting_group_general'] = 'پیکربندی‌های عمومی';
 $l['setting_group_general_desc'] = 'این بخش به شما اجازه می‌دهد تا جنبه‌های مختلف انجمن خود را مدیریت کنید.';
 
-$l['setting_bblanguage'] = 'Default Language';
-$l['setting_bblanguage_desc'] = 'The default language that MyBB should use for guests and for users without a selected language in their user control panel.';
-$l['setting_captchaimage'] = 'CAPTCHA Images for Registration & Posting';
-$l['setting_captchaimage_desc'] = 'To help prevent automated registrations and postings, you can choose a type of image verification for the user to complete. Please see the MyBB Docs for more information on CAPTCHAs.';
+$l['setting_bblanguage'] = 'زبان پیش فرض';
+$l['setting_bblanguage_desc'] = 'زبان پیش فرضی که مای بی بی باید از آن برای مهمان ها و کاربرانی که در حسابشان زبانی را انتخاب نکرده اند استفاده کند.' ;
+$l['setting_captchaimage'] = 'تصاویر CAPTCHA برای ثبت نام و ارسال کردن';
+$l['setting_captchaimage_desc'] = 'برای جلوگیری از فرایند های خودکار عضویت و ارسال کردن شما می توانید نوع تصویر امنیتی را که کاربر باید آنرا کامل کند را وارد کنید. برای اطلاعات بیشتر  در مورد کئچاها مستندات مای بی بی را مشاهده نمایید.';
 $l['setting_captchapublickey'] = 'reCAPTCHA Public Key';
 $l['setting_captchapublickey_desc'] = 'Your reCAPTCHA public key.';
 $l['setting_captchaprivatekey'] = 'reCAPTCHA Private Key';
