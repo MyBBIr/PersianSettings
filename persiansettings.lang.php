@@ -9,15 +9,15 @@
 $l['setting_group_onlineoffline'] = 'حاضر/غایب بودن انجمن';
 $l['setting_group_onlineoffline_desc'] = 'این تنظمیات به شما اجازه می‌دهد تا انجمن‌هایتان را به صورت عمومی حاضر یا غایت کنید، و همچنین به شما اجازه می‌دهد تا دلیلی برای خاموش کردن انجمن بنویسید.';
 
-$l['setting_boardclosed'] = 'انجمن بسته است';
-$l['setting_boardclosed_desc'] = 'If you need to close your forums to make some changes or perform an upgrade, this is the global switch. Viewers will not be able to view your forums, however, they will see a message with the reason you specify below. Administrators will still be able to view the forums.';
-$l['setting_boardclosed_reason'] = 'Board Closed Reason';
-$l['setting_boardclosed_reason_desc'] = 'If your forum is closed, you can set a message here that your visitors will be able to see when they visit your forums.';
+$l['setting_boardclosed'] = 'انجمن بسته‌شده است';
+$l['setting_boardclosed_desc'] = 'اگر شما می خواهید تا انجمن‌هایتان را به منظور ایجاد بعضی تغییرات یا انجام یک بروزرسانی برای عموم ببندید، این گزینه را انتخاب کنید. بازدید کنندگان قادر نخواهند بود تا انجمن‌های شما را مشاهده کنند، همچنین  آنها یک دلیل که شما می‌توانید در زیر تغییرش دهید را می‌بینند. مدیران کل هنوز‌هم قادر خواهند بود انجمن‌ها را مشاهده نمایند.';
+$l['setting_boardclosed_reason'] = 'دلیل بسته‌شدن انجمن';
+$l['setting_boardclosed_reason_desc'] = 'اگر انجمن شما بسته‌است،شما می توانید یک پیام را که بازدید کنندگان وقتی انجمن‌شما را مشاهده می‌کنند آن را ببینند قرار دهید.';
 
 
 
 $l['setting_group_details'] = 'اطلاعات انجمن';
-$l['setting_group_details_desc'] = 'This section contains various settings such as your board name and url, as well as your website name and url.';
+$l['setting_group_details_desc'] = 'این بخش شامل تنظیمات مختلف از جمله نام انجمن شما و URL آن و همچنین نام وب‌سایت شما و URL آن است.';
 
 $l['setting_bbname'] = 'Board Name';
 $l['setting_bbname_desc'] = 'The name of your community. We recommend that it is not over 75 characters.';
@@ -49,7 +49,7 @@ $l['setting_faxno_desc'] = 'If you have a fax number, enter it here. This is sho
 
 
 $l['setting_group_general'] = 'پیکربندی‌های عمومی';
-$l['setting_group_general_desc'] = 'This section allows you to manage the general aspects of your board.';
+$l['setting_group_general_desc'] = 'این بخش به شما اجازه می‌دهد تا جنبه‌های مختلف انجمن خود را مدیریت کنید.';
 
 $l['setting_bblanguage'] = 'Default Language';
 $l['setting_bblanguage_desc'] = 'The default language that MyBB should use for guests and for users without a selected language in their user control panel.';
