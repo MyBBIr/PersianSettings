@@ -694,7 +694,7 @@ $l['setting_purgespammerbangroup_desc'] = 'آی دی آن گروه کاربری 
 $l['setting_purgespammerbanreason'] = 'دلیل محرومیت';
 $l['setting_purgespammerbanreason_desc'] = 'دلیلی که برای محروم سازی اسپمر مورد استفاده قرار می گیرد.';
 $l['setting_purgespammerapikey'] = 'کلیدAPI  ابزار Stop Forum Spam';
-$l['setting_purgespammerapikey_desc'] = 'In order to be able to submit information on a spammer to the Stop Forum Spam database, you need an API key. You can get one of these <a href="http://stopforumspam.com/signup" target="_blank">here</a>. When you have your key, paste it into the box below.';
+$l['setting_purgespammerapikey_desc'] = 'به منظور اینکه اطلاعات یک اسپمر در پایگاه داده Stop Forum Spam ذخیره شود،شما به یک کلید API نیاز دارید.شما میتوانید یکی از آنها را از <a href="http://stopforumspam.com/signup" target="_blank">اینجا</a> بدست آورید.زمانی که کلید خود را بدست آوردید، آن را در جعبه زیر بنویسید.';
 
 
 
