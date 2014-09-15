@@ -751,9 +751,9 @@ $l['setting_allowgooglefield_desc'] = 'Select the usergroups who are allowed to 
 
 
 $l['setting_group_statspage'] = 'صفحه‌ی آمار';
-$l['setting_group_statspage_desc'] = 'This section allows you to change the settings of the statistics page.';
+$l['setting_group_statspage_desc'] = 'این بخش به شما اجازه می دهد تا تنظیمات صفحه آمار را تغییر دهید.';
 
-$l['setting_statsenabled'] = 'Enable Statistics Pages';
-$l['setting_statsenabled_desc'] = 'If you wish to disable the statistics page on your board, set this option to no.';
+$l['setting_statsenabled'] = 'فعال کردن صفحات آمار';
+$l['setting_statsenabled_desc'] = 'اگر میخواهید صفحه آمار را در انجمن خود غیر فعال کنید،این گزینه را روی "خیر" قرار دهید.';
 $l['setting_statscachetime'] = 'Statistics Cache Time';
-$l['setting_statscachetime_desc'] = 'Insert the interval of time to refresh the statistics page cache in hours. 0 to disable caching.';
+$l['setting_statscachetime_desc'] = 'بازه ی زمانی به روز کردن کش صفحه آمار را به ساعت وارد کنید. برای غیرفعال کردن آن 0 را وارد کنید.';
