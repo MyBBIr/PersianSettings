@@ -735,25 +735,25 @@ $l['setting_stopforumspam_log_blocks_desc'] = '
 
 
 $l['setting_group_contactdetails'] = 'اطلاعات تماس';
-$l['setting_group_contactdetails_desc'] = 'This section allows you to change the settings of the contact fields feature.';
+$l['setting_group_contactdetails_desc'] = 'این بخش به شما اجازه می دهد تا تنظیمات فیلدهای تماس را تغییر دهید.';
 
-$l['setting_allowicqfield'] = 'Allow ICQ Number Field To Usergroups';
-$l['setting_allowicqfield_desc'] = 'Select the usergroups who are allowed to use the ICQ Number contact field.';
-$l['setting_allowaimfield'] = 'Allow AIM Screen Name To Usergroups';
-$l['setting_allowaimfield_desc'] = 'Select the usergroups who are allowed to use the AIM Screen Name contact field.';
-$l['setting_allowyahoofield'] = 'Allow Yahoo ID Field To Usergroups';
-$l['setting_allowyahoofield_desc'] = 'Select the usergroups who are allowed to use the Yahoo ID contact field.';
-$l['setting_allowskypefield'] = 'Allow Skype ID Field To Usergroups';
-$l['setting_allowskypefield_desc'] = 'Select the usergroups who are allowed to use the Skype ID contact field.';
-$l['setting_allowgooglefield'] = 'Allow Google Talk ID Field To Usergroups';
-$l['setting_allowgooglefield_desc'] = 'Select the usergroups who are allowed to use the Google Talk ID contact field.';
+$l['setting_allowicqfield'] = 'اعطای اجازه به گروه ها برای استفاده از فیلد ICQ';
+$l['setting_allowicqfield_desc'] = 'گروه های کاربری را که مجازند تا از فیلد تماس   ICQاستفاده کنند،انتخاب کنید.';
+$l['setting_allowaimfield'] = 'اعطای اجازه به گروه ها برای استفاده از فیلد AIM';
+$l['setting_allowaimfield_desc'] = 'گروه های کاربری را که مجازند تا از فیلد تماسAIM  استفاده کنند،انتخاب کنید.';
+$l['setting_allowyahoofield'] = 'اعطای اجازه به گروه ها برای استفاده از فیلد یاهو';
+$l['setting_allowyahoofield_desc'] = 'گروه های کاربری را که مجازند تا از فیلد تماس یاهو استفاده کنند،انتخاب کنید.';
+$l['setting_allowskypefield'] = 'اعطای اجازه به گروه ها برای استفاده از فیلد اسکایپ';
+$l['setting_allowskypefield_desc'] = 'گروه های کاربری را که مجازند تا از فیلد تماس اسکایپ استفاده کنند،انتخاب کنید.';
+$l['setting_allowgooglefield'] = 'اعطای اجازه به گروه ها برای استفاده از فیلد گوگل تاک';
+$l['setting_allowgooglefield_desc'] = 'گروه های کاربری را که مجازند تا از فیلد تماس گوگل تاک استفاده کنند،انتخاب کنید';
 
 
 
-$l['setting_group_statspage'] = 'صفحه‌ی آمار';
+$l['setting_group_statspage'] = 'صفحه ی آمار';
 $l['setting_group_statspage_desc'] = 'این بخش به شما اجازه می دهد تا تنظیمات صفحه آمار را تغییر دهید.';
 
 $l['setting_statsenabled'] = 'فعال کردن صفحات آمار';
 $l['setting_statsenabled_desc'] = 'اگر میخواهید صفحه آمار را در انجمن خود غیر فعال کنید،این گزینه را روی "خیر" قرار دهید.';
-$l['setting_statscachetime'] = 'Statistics Cache Time';
+$l['setting_statscachetime'] = 'زمان کش آمار';
 $l['setting_statscachetime_desc'] = 'بازه ی زمانی به روز کردن کش صفحه آمار را به ساعت وارد کنید. برای غیرفعال کردن آن 0 را وارد کنید.';
