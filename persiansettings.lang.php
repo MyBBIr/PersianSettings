@@ -345,7 +345,7 @@ $l['setting_allowbuddyonly'] = 'Allow Buddy-Only Messaging?';
 $l['setting_allowbuddyonly_desc'] = 'Allow users to send private messages only to people on their buddy list?';
 
 
-
+/* start: درحال انجام */
 $l['setting_group_posting'] = 'ارسال‌کردن';
 $l['setting_group_posting_desc'] = 'These options control the various elements in relation to posting messages on the forums.';
 
@@ -400,7 +400,7 @@ $l['setting_threadreview_desc'] = 'Show recent posts when creating a new reply?'
 $l['setting_alloweditreason'] = 'Allow Edit Reason';
 $l['setting_alloweditreason_desc'] = 'Do you want to allow users the ability to add an optional reason why they\'ve edited their post?';
 
-
+/* End: درحال انجام */
 
 $l['setting_group_attachments'] = 'پیوست‌ها';
 $l['setting_group_attachments_desc'] = 'Various options related to the attachment system can be managed and set here.';
