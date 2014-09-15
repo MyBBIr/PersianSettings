@@ -681,19 +681,19 @@ $l['setting_contact_maxmessagelength_desc'] = 'The maximum number of characters 
 
 
 $l['setting_group_purgespammer'] = 'پاک‌سازی اسپمر';
-$l['setting_group_purgespammer_desc'] = 'This section allows you to change the settings of the Purge Spammer feature.';
+$l['setting_group_purgespammer_desc'] = 'این بخش به شما اجازه می دهد تا تنظیمات  Purge Spammer را تغییر دهید.';
 
-$l['setting_purgespammergroups'] = 'Allowed Usergroups';
-$l['setting_purgespammergroups_desc'] = 'Select the usergroups who are allowed to use Purge Spammer.';
-$l['setting_purgespammerpostlimit'] = 'Post Limit';
-$l['setting_purgespammerpostlimit_desc'] = 'This setting stops this tool being used on users who have more than a certain amount of posts, to prevent it being used on active members. Setting the value to 0 will disable the post check, however this is not recommended.';
-$l['setting_purgespammerbandelete'] = 'Ban or Delete Spammers';
-$l['setting_purgespammerbandelete_desc'] = 'Do you want to ban or delete spammers with this tool?';
-$l['setting_purgespammerbangroup'] = 'Ban Usergroup';
-$l['setting_purgespammerbangroup_desc'] = 'Enter the ID of the usergroup (not the name) to put users into when they get banned. Defaults to 7, the default Banned usergroup. The above setting must be set to \'Ban\' for this to take effect.';
-$l['setting_purgespammerbanreason'] = 'Ban Reason';
-$l['setting_purgespammerbanreason_desc'] = 'The reason which is used to ban the spammer';
-$l['setting_purgespammerapikey'] = 'Stop Forum Spam API Key';
+$l['setting_purgespammergroups'] = 'گروه های کاربری مجاز';
+$l['setting_purgespammergroups_desc'] = 'گروه های کاربری را که مجازند تا از Purge Spammer استفاده کنند،انتخاب کنید.';
+$l['setting_purgespammerpostlimit'] = 'محدودیت ارسال';
+$l['setting_purgespammerpostlimit_desc'] = 'این گزینه از اجرای این ابزار بر روی کاربرانی که بیشتر از تعداد مشخصی ارسال دارند، جلوگیری می کند، به این منظور که این ابزار بر روی کاربران فعال اجرا نگردد.قرار دادن مقدار بر روی 0 ویژگی بررسی ارسال را غیر فعال می کند، اگرچه چنین اقدامی توصیه نمی شود.';
+$l['setting_purgespammerbandelete'] = 'محروم کردن یا حذف اسپمرها';
+$l['setting_purgespammerbandelete_desc'] = 'آیا میخواهید با این ابزار اسپمرها را محروم کنید یا حذف؟';
+$l['setting_purgespammerbangroup'] = 'گروه کاربری محرومین';
+$l['setting_purgespammerbangroup_desc'] = 'آی دی آن گروه کاربری (نه نام) که وقتی کاربران محروم می شوند باید در آن قرار بگیرند، وارد کنید.عدد پیشفرض 7 ،آی دی گروه کاربری محروم پیشفرض می باشد.تنظیمات بالا باید بصورت \'Ban\' تنظیم شود تا این مورد کار کند.';
+$l['setting_purgespammerbanreason'] = 'دلیل محرومیت';
+$l['setting_purgespammerbanreason_desc'] = 'دلیلی که برای محروم سازی اسپمر مورد استفاده قرار می گیرد.';
+$l['setting_purgespammerapikey'] = 'کلیدAPI  ابزار Stop Forum Spam';
 $l['setting_purgespammerapikey_desc'] = 'In order to be able to submit information on a spammer to the Stop Forum Spam database, you need an API key. You can get one of these <a href="http://stopforumspam.com/signup" target="_blank">here</a>. When you have your key, paste it into the box below.';
 
 
