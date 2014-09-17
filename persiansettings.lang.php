@@ -4,7 +4,7 @@
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
- * Conributors: ATofighi, Big-Goal, Rahnamafard, Farsi200
+ * Conributors: ATofighi, Big-Goal, Rahnamafard, MyBB, Farsi200
  */
 
 $l['setting_group_onlineoffline'] = 'حاضر/غایب بودن انجمن';
@@ -623,17 +623,16 @@ $l['setting_guestvideos_desc'] = 'Setting this to yes will parse posted videos t
 
 
 $l['setting_group_cpprefs'] = 'تنظیمات کنترل پنل (عمومی)';
-$l['setting_group_cpprefs_desc'] = 'This section allows you to set the global preferences for the Admin Control Panel.';
+$l['setting_group_cpprefs_desc'] = ' این بخش به شما امکان تنظیم کردن الویت های کلی برای کنترل پنل مدیر (ادمین) را می دهد.';
 
-$l['setting_cplanguage'] = 'Control Panel Language';
-$l['setting_cplanguage_desc'] = 'The language of the control panel.';
-$l['setting_cpstyle'] = 'Control Panel Style';
-$l['setting_cpstyle_desc'] = 'The Default style that the control panel will use. Styles are inside the styles folder. A folder name inside that folder becomes the style title and style.css inside the style title folder is the css style file.';
-$l['setting_maxloginattempts'] = 'Max Number of Login Attempts';
-$l['setting_maxloginattempts_desc'] = 'The max number of attempts to login before being locked out. Set to 0 to disable.';
-$l['setting_loginattemptstimeout'] = 'Login Attempts Timeout';
-$l['setting_loginattemptstimeout_desc'] = 'If the person trying to login reaches the max number of attempts, how long should they have to wait before being able to login again? (Set in minutes)';
-
+$l['setting_cplanguage'] = 'زبان کنترل پنل';
+$l['setting_cplanguage_desc'] = 'زبان مورد استفاده برای کنترل پنل مدیریت.';
+$l['setting_cpstyle'] = 'پوسته کنترل پنل';
+$l['setting_cpstyle_desc'] = 'پوسته پیشفرض که کنترل پنل از آن استفاده خواهد کرد. پوسته ها  درون پوشه [styels] قرار دارند . نام پوشه درون پوشه [styles] عنوان آن پوسته میشود و style.css درون پوشه پوسته ، فایل css پوسته شما میشود';
+$l['setting_maxloginattempts'] = 'حداکثر تعداد تلاش برای وارد شدن';
+$l['setting_maxloginattempts_desc'] = 'حداکثر تعداد تلاش برای وارد شدن قبل از اینکه قفل شود. برای غیرفعال کردن برابر با صفر [0] قرار دهید';
+$l['setting_loginattemptstimeout'] = 'فاصله زمانی تلاش های ورود';
+$l['setting_loginattemptstimeout_desc'] = 'اگر تعداد تلاش های کاربر برای ورود به حداکثر رسید ، چه مدت باید صبر کند تا بتواند دوباره وارد شد؟ بر اساس دقیقه تنظیم می شود';
 
 
 $l['setting_group_mailsettings'] = 'تنظیمات ایمیل';
