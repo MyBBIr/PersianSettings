@@ -401,18 +401,18 @@ $l['setting_alloweditreason_desc'] = 'آیا قصد دارید به کاربرا
 
 
 $l['setting_group_attachments'] = 'پیوست‌ها';
-$l['setting_group_attachments_desc'] = 'Various options related to the attachment system can be managed and set here.';
+$l['setting_group_attachments_desc'] = 'تنظیمات مختلف در مورد سیستم پیوست‌ها که شما قادر به مدیریت و تنظیم آن هستید.';
 
-$l['setting_enableattachments'] = 'Enable Attachment Functionality';
-$l['setting_enableattachments_desc'] = 'If you wish to disable attachments on your board, set this option to no.';
-$l['setting_maxattachments'] = 'Maximum Attachments Per Post';
-$l['setting_maxattachments_desc'] = 'The maximum number of attachments a user is allowed to upload per post.';
-$l['setting_attachthumbnails'] = 'Show Attached Thumbnails in Posts';
-$l['setting_attachthumbnails_desc'] = 'How do you want images to be shown in posts?';
-$l['setting_attachthumbh'] = 'Attached Thumbnail Maximum Height';
-$l['setting_attachthumbh_desc'] = 'Enter the height that attached thumbnails should be generated at.';
-$l['setting_attachthumbw'] = 'Attached Thumbnail Maximum Width';
-$l['setting_attachthumbw_desc'] = 'Enter the width that attached thumbnails should be generated at.';
+$l['setting_enableattachments'] = 'فعال‌سازی عمل‌کرد پیوست';
+$l['setting_enableattachments_desc'] = 'اگر شما می‌خواهید پیوست‌ها را در انجمن خود غیرفعال سازید، این تنظیم را بر روی خیر قرار دهید.';
+$l['setting_maxattachments'] = 'حداکثر تعداد پیوست‌ها برای هر ارسال';
+$l['setting_maxattachments_desc'] = 'حداکثر تعداد پیوستی که کاربر اجازه بارگذاری آن را برای هرارسال دارد.';
+$l['setting_attachthumbnails'] = 'نمایش بندانگشتی فایل‌های پیوست‌شده';
+$l['setting_attachthumbnails_desc'] = 'می‌خواهید تصاویر در ارسال‌ها چگونه نمایش داده شوند؟';
+$l['setting_attachthumbh'] = 'حداکثر ارتفاع بندانگشتی‌های پیوستی';
+$l['setting_attachthumbh_desc'] = 'حداکثر ارتفاع برای بندانگشتی‌های پیوست شده که باید با آن ساخته شوند را وارد کنید.';
+$l['setting_attachthumbw'] = 'حداکثر عرض بندانگشتی‌های پیوستی';
+$l['setting_attachthumbw_desc'] = 'حداکثر عرض برای بندانگشتی‌های پیوست شده که باید با آن ساخته شوند را وارد کنید.';
 
 
 
