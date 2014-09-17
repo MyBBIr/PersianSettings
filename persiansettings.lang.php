@@ -4,7 +4,7 @@
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
- * Conributors: ATofighi, Big-Goal, Farsi200
+ * Conributors: ATofighi, Big-Goal, Rahnamafard, Farsi200
  */
 
 $l['setting_group_onlineoffline'] = 'حاضر/غایب بودن انجمن';
@@ -98,9 +98,9 @@ $l['setting_hidesignatures_desc'] = 'Select the usergroups you wish to hide sign
 
 
 $l['setting_group_server'] = 'گزینه‌های سرور و بهینه‌سازی';
-$l['setting_group_server_desc'] = 'These options allow you to set various server and optimization preferences allowing you to reduce the load on your server, and gain better performance on your board.';
+$l['setting_group_server_desc'] = 'این گزینه‌ها به شما اجازه می دهد تا تنظیم‌های مختلف سرور و بهینه‌سازی سرور برای بارگذاری بهتر سرور‌شما و به دست‌آوردن عملکرد بهتر انجمنتان را تنظیم کنید.';
 
-$l['setting_seourls'] = 'Enable search engine friendly URLs?';
+$l['setting_seourls'] = 'فعال سازی URLهای دوستانه با موتورهای جستجو؟';
 $l['setting_seourls_desc'] = 'Search engine friendly URLs change the MyBB links to shorter URLs which search engines prefer and are easier to type. showthread.php?tid=1 becomes thread-1.html. <strong>Once this setting is enabled you need to make sure you have the MyBB .htaccess in your MyBB root directory (or the equivalent for your web server). Automatic detection may not work on all servers.</strong> Please see the <a href="http://docs.mybb.com/SEF_URLs.html">MyBB Docs</a> for assistance.';
 $l['setting_seourls_archive'] = 'Enable search engine friendly URLs in Archive?';
 $l['setting_seourls_archive_desc'] = 'Search engine friendly URLs can be used in the archive. <strong>Once this setting is enabled ensure the archive still works as expected.</strong>';
@@ -345,62 +345,60 @@ $l['setting_allowbuddyonly'] = 'Allow Buddy-Only Messaging?';
 $l['setting_allowbuddyonly_desc'] = 'Allow users to send private messages only to people on their buddy list?';
 
 
-/* start: درحال انجام */
 $l['setting_group_posting'] = 'ارسال‌کردن';
-$l['setting_group_posting_desc'] = 'These options control the various elements in relation to posting messages on the forums.';
+$l['setting_group_posting_desc'] = 'این تنظیمات به شما اجازه می‌دهند تا عناصر مختلف مربوط به ارسال کردن داخل انجمن‌ها را مدیریت کنید.';
 
-$l['setting_minmessagelength'] = 'Minimum Message Length';
-$l['setting_minmessagelength_desc'] = 'The minimum number of characters to post.';
-$l['setting_maxmessagelength'] = 'Maximum Message Length';
-$l['setting_maxmessagelength_desc'] = 'The maximum number of characters (bytes) to allow in a message. A setting of 0 allows an unlimited length.
-<br />This should correlate with the message column type in the posts database table, and adjust accordingly. Below are the maximum lengths for each column type.
+$l['setting_minmessagelength'] = 'کمینه طول مجاز هر ارسال';
+$l['setting_minmessagelength_desc'] = 'عدد مربوط به تعداد کاراکتر های ارسالی.';
+$l['setting_maxmessagelength'] = 'بیشینه طول مجاز هر ارسال';
+$l['setting_maxmessagelength_desc'] = 'حد اکثر کاراکتر (بایت) های مجاز برای یک ارسال. عدد 0 بیانگر عدم محدودیت در این باره است.
+<br>این مقدار باید با حجم ستون ارسال‌ها در پایکاه داده مطابقت داشته باشد. در زیر بیشینه ی هر نوع از ستون ها نوشته شده است.
 <ul>
-	<li>TEXT: 65535 (default)</li>
-	<li>MEDIUMTEXT: 16777215</li>
-	<li>LONGTEXT: 4294967295</li>
+<li>TEXT: 65535 (پیش‌فرض)</li>
+<li>MEDIUMTEXT: 16777215</li>
+<li>LONGTEXT: 4294967295</li>
 </ul>';
-$l['setting_mycodemessagelength'] = 'MyCode Affects Minimum Message Length?';
-$l['setting_mycodemessagelength_desc'] = 'Do you want MyCode to be counted as part of the minimum limit when users use MyCode in messages?';
-$l['setting_postfloodcheck'] = 'Post Flood Checking';
-$l['setting_postfloodcheck_desc'] = 'Set to on if you want to enable flood checking for posts. Specify the time between posts below.';
-$l['setting_postfloodsecs'] = 'Post Flood Time';
-$l['setting_postfloodsecs_desc'] = 'Set the time (in seconds) users have to wait between posting, to be in effect; the option above must be on.';
-$l['setting_postmergemins'] = 'Post Merge Time';
-$l['setting_postmergemins_desc'] = 'With this enabled, posts posted within x minutes by the same author right after each other, will be merged. Set the time limit (in minutes) to merge posts. Set to 0 or leave blank to disable this feature. Default: 60';
-$l['setting_postmergefignore'] = 'Merge Forums to Ignore';
-$l['setting_postmergefignore_desc'] = 'Forums to exclude from the auto merge feature. Leave blank to disable.';
-$l['setting_postmergeuignore'] = 'Merge User Groups to Ignore';
-$l['setting_postmergeuignore_desc'] = 'Usergroups, to exclude from the merge feature.';
-$l['setting_postmergesep'] = 'Merge Separator';
-$l['setting_postmergesep_desc'] = 'The Separator to be used when merging two message Default: \'[hr]\'';
-$l['setting_logip'] = 'Show Posting IP Addresses';
-$l['setting_logip_desc'] = 'Do you wish to show ip addresses of users who post, and who you want to show ip addresses to?';
-$l['setting_showeditedby'] = 'Show \'edited by\' Messages';
-$l['setting_showeditedby_desc'] = 'Once a post is edited by a regular user, do you want to show the edited by message?';
-$l['setting_showeditedbyadmin'] = 'Show \'edited by\' Message for Administrators';
-$l['setting_showeditedbyadmin_desc'] = 'Do you want to show edited by messages for posts created by administrators?';
-$l['setting_maxpostimages'] = 'Maximum Images per Post';
-$l['setting_maxpostimages_desc'] = 'Enter the maximum number of images (including smilies) a user can put in their post. Set to 0 to disable this.';
-$l['setting_maxpostvideos'] = 'Maximum Videos per Post';
-$l['setting_maxpostvideos_desc'] = 'Enter the maximum number of videos a user can put in their post. Set to 0 to disable this.';
-$l['setting_subscribeexcerpt'] = 'Amount of Characters for Subscription Previews';
-$l['setting_subscribeexcerpt_desc'] = 'How many characters of the post do you want to send with the email notification of a new reply?';
-$l['setting_wordwrap'] = 'Number of Characters before Word Wrapping Occurs';
-$l['setting_wordwrap_desc'] = 'The maximum number of characters that can be present in a word before a space is automatically inserted. (helps preservation of the forum layout). Set to 0 to disable.';
-$l['setting_maxquotedepth'] = 'Maximum Nested Quote Tags';
-$l['setting_maxquotedepth_desc'] = 'The maximum depth level for quote tags. When quote-replying to a post, all nested quotes which exceed this threshold are automatically removed. Note that this value is only enforced when quote-replying - it is still possible to manually enter quotes to exceed this limit, and this setting will not affect posts already submitted. Set to 0 to disable.';
-$l['setting_polloptionlimit'] = 'Maximum Poll Option Length';
-$l['setting_polloptionlimit_desc'] = 'The maximum length that each poll option can be. (Set to 0 to disable).';
-$l['setting_maxpolloptions'] = 'Maximum Number of Poll Options';
-$l['setting_maxpolloptions_desc'] = 'The maximum number of options for polls that users can post.';
-$l['setting_polltimelimit'] = 'Poll Time Limit';
-$l['setting_polltimelimit_desc'] = 'The number of hours until regular users cannot add a poll to their own threads (if they have the permission). Enter 0 (zero) for no limit.';
-$l['setting_threadreview'] = 'Show Thread Review';
-$l['setting_threadreview_desc'] = 'Show recent posts when creating a new reply?';
-$l['setting_alloweditreason'] = 'Allow Edit Reason';
-$l['setting_alloweditreason_desc'] = 'Do you want to allow users the ability to add an optional reason why they\'ve edited their post?';
+$l['setting_mycodemessagelength'] = 'مای‌کد ها در شمارش کاراکتر ها حساب شوند؟';
+$l['setting_mycodemessagelength_desc'] = 'آیا می خواهید مای‌کد ها هم مثل متون دیگر برای اندازه گیری متن به احتساب آیند؟';
+$l['setting_postfloodcheck'] = 'بررسی ارسال‌کردن متوالی';
+$l['setting_postfloodcheck_desc'] = 'اگر می خواهید بین هر ارسال با ارسال بعدی حداقل زمانی مشخص کنید این مورد را روشن نمایید.';
+$l['setting_postfloodsecs'] = 'زمان ارسال‌کردن متوالی';
+$l['setting_postfloodsecs_desc'] = 'میزان زمانی که کاربر باید بین دو ارسال متوالی خود صبر کند را به ثانیه وارد کنید. پیش‌فرض: 60';
+$l['setting_postmergemins'] = 'ادغام‌کردن ارسال‌ها';
+$l['setting_postmergemins_desc'] = 'با فعال شدن این گزینه ارسال‌هایی که در x دقیقه به دست یک کاربر پشت سر هم ارسال می شوند با هم ادغام خواهند شد. برای غیر فعال کردن یا خالی بگذارید و یا عدد 0 را وارد کنید. پیش‌فرض: 60';
+$l['setting_postmergefignore'] = 'انجمن‌های استثنا برای ادغام‌کردن';
+$l['setting_postmergefignore_desc'] = 'انجمن‌هایی که می خواهید از قاعده ی ادغام‌کردن ارسال‌های متوالی مستثنا باشند انتخاب کنید.';
+$l['setting_postmergeuignore'] = 'گروه های کاربری استثنا برای ادغام‌کردن';
+$l['setting_postmergeuignore_desc'] = 'گروه های کاربری مستثنا از قاعده ی ادغام‌کردن ارسال‌ها را انتخاب کنید.';
+$l['setting_postmergesep'] = 'جدا ساز ارسال‌های ادغام شده';
+$l['setting_postmergesep_desc'] = 'جدا سازی که هنگام ادغام دو ارسال استفاده می شود. پیش‌فرض: \'[hr]\'';
+$l['setting_logip'] = 'نمایش آدرس آی پی';
+$l['setting_logip_desc'] = 'آیا می‌خواهید آدرس آی پی افراد نمایش داده شود؟ برای چه گروهی از افراد؟';
+$l['setting_showeditedby'] = 'نمایش متن \'ویرایش شده توسط\'؟';
+$l['setting_showeditedby_desc'] = 'آیا می خواهید هنگامی که فردی اسرالی را ویرایش کرد این ویرایش اعلام گردد?';
+$l['setting_showeditedbyadmin'] = 'نمایش \'ویرایش شده توسط\' برای ارسال مدیران';
+$l['setting_showeditedbyadmin_desc'] = 'آی می خواهید \'ویرایش شده توسط\' برای ارسال‌های مدیران هم به نمایش در آید؟';
+$l['setting_maxpostimages'] = 'بیشینه عکس های مجاز یک ارسال';
+$l['setting_maxpostimages_desc'] = 'بیشترین تعداد عکسی که کاربرا می تواند در یک ارسال استفاده کند (اعم از شکلک ها و غیره) را وارد کنید. عدد 0 بیانگر غیر فعال کردن این امکان است.';
+$l['setting_maxpostvideos'] = 'بیشینه فیلم های مجاز یک ارسال';
+$l['setting_maxpostvideos_desc'] = 'بیشترین تعداد فیلمی که کاربرا می تواند در یک ارسال استفاده کند را وارد کنید. عدد 0 بیانگر غیر فعال کردن این امکان است.';
+$l['setting_subscribeexcerpt'] = 'مقدار کاراکتر مورد نمایش برای پیش‌نمایش اشتراک‌ها';
+$l['setting_subscribeexcerpt_desc'] = 'چند کااکتر از ارسال‌ها را در پیش‌نمایش ارسال در هشدار به وسیله‌ی ایمیل برای ارسال‌های جدید نمایش داده شود؟';
+$l['setting_wordwrap'] = 'تعداد کاراکتر‌هایی که قبل‌از رخ دادن بسته‌بندی کلمات (رفتن به خط بعدی) باشند';
+$l['setting_wordwrap_desc'] = 'تعداد حداکثر کاراکتری که می‌توانند در یک کلمه قبل از یک فاصله به صورت خودکار باشند. (به حفظ طرح‌بندی انجمن کمک می‌کند). برای غیرفعال سازی بر روی ۰ قرار دهید.';
+$l['setting_maxquotedepth'] = 'بیشترین مرحله نقل قول های تو در تو';
+$l['setting_maxquotedepth_desc'] = 'هنگامی که یک ارسال نقل قول می شود تمامی نقل قول های درون آن بدون مرز خواهند شد. این امکان بر روی نقل قول های موجود اعمال نخواهد شد. عدد 0 بیانگر غیر فعال کردن این امکان می باشد.';
+$l['setting_polloptionlimit'] = 'بیشترین طول گزینه های نظرسنجی';
+$l['setting_polloptionlimit_desc'] = 'بیشترین طول برای هر گزینه ی نظرسنجی. 0 یعنی غیر فعال شود.';
+$l['setting_maxpolloptions'] = 'بیشترین تعداد گزینه های مجاز هر نظرسنجی';
+$l['setting_maxpolloptions_desc'] = 'بیشترین تعداد گزینه های یک نظرسنجی که کاربر می تواند ارسال کند.';
+$l['setting_polltimelimit'] = 'محدودیت ساعتی نظرسنجی';
+$l['setting_polltimelimit_desc'] = 'عدد مربوط به تعداد ساعاتی که یک کاربر عادی قادر به ارسال نظرسنجی برای موضوع‌های خود نخواهد بود. عدد 0 بیانگر غیر عدم محدودیت این مورد است.';
+$l['setting_threadreview'] = 'نمایش مرورگر موضوع؟';
+$l['setting_threadreview_desc'] = 'هنگام ارسال پاسخ جدید ارسال‌های قبلی نمایش داده شوند؟';
+$l['setting_alloweditreason'] = 'اجازه ی درج دلیل ویرایش؟';
+$l['setting_alloweditreason_desc'] = 'آیا قصد دارید به کاربران اجازه دهید دلیل خود را برای ویرایش ارسالشان اضافه کنند؟';
 
-/* End: درحال انجام */
 
 $l['setting_group_attachments'] = 'پیوست‌ها';
 $l['setting_group_attachments_desc'] = 'Various options related to the attachment system can be managed and set here.';
