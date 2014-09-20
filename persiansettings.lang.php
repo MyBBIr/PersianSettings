@@ -581,10 +581,10 @@ $l['setting_searchhardlimit_desc'] = 'Enter the maximum amount of results to be 
 
 
 $l['setting_group_clickablecode'] = 'شکلک‌ها و BB Code قابل کلیک';
-$l['setting_group_clickablecode_desc'] = 'This section allows you to change how the clickable smilies inserter appears and control the default MyCodes.';
+$l['setting_group_clickablecode_desc'] = 'این بخش به شما اجازه می دهد تا چگونگی نمایش درج گر شکلک ها را تغییر دهید و همچنین مای کدهای پیش فرض را کنترل کنید.';
 
-$l['setting_bbcodeinserter'] = 'Clickable MyCode Editor';
-$l['setting_bbcodeinserter_desc'] = 'Set this option to On to show the clickable code buttons editor on posting pages. Switching this off will also disable the Smilies Inserter.';
+$l['setting_bbcodeinserter'] = 'ادیتور مای کد';
+$l['setting_bbcodeinserter_desc'] = 'این گزینه را روی روشن قرار دهید تا ادیتور دکمه دار در صفحات ارسال، نمایش داده  شود. خاموش کردن این گزینه همچنین درج گر شکلک ها را غیرفعال می کند.';
 $l['setting_partialmode'] = 'Clickable MyCode Editor in Partial Mode';
 $l['setting_partialmode_desc'] = 'Editor will be in partial mode if this option is set to \'yes\'. Several MyCodes, such as [quote] and [img], will be inserted into it as plain text tags.';
 $l['setting_smilieinserter'] = 'Clickable Smilies Inserter';
