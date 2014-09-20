@@ -698,36 +698,26 @@ $l['setting_purgespammerapikey_desc'] = 'به منظور اینکه اطلاعا
 $l['setting_group_stopforumspam'] = 'توقف اسپم انجمن';
 $l['setting_group_stopforumspam_desc'] = 'This section allows you to change the settings used for the integration with StopForumSpam.com';
 
-$l['setting_enablestopforumspam_on_register'] = 'Check Registrations Against StopForumSpam.com?';
-$l['setting_enablestopforumspam_on_register_desc'] = '
-				Do you wish to check all new registrations against the StopForumSpam.com database?';
-$l['setting_stopforumspam_on_contact'] = 'Check Guest Contact Submissions Against StopForumSpam?';
-$l['setting_stopforumspam_on_contact_desc'] = '
-				Should guest email and IP addresses be checked against StopForumSpam when using the contact page?';
-$l['setting_stopforumspam_on_newreply'] = 'Check Guest Replies Against StopForumSpam?';
-$l['setting_stopforumspam_on_newreply_desc'] = '
-				Should guest usernames and IP addresses be checked against StopForumSpam when creating new replies?';
-$l['setting_stopforumspam_on_newthread'] = 'Check Guest Threads Against StopForumSpam?';
-$l['setting_stopforumspam_on_newthread_desc'] = '
-				Should guest usernames and IP addresses be checked against StopForumSpam when creating new threads?';
+$l['setting_enablestopforumspam_on_register'] = 'ایا ثبت نام کنندگان توسط StopForumSpam.com بررسی شوند؟';
+$l['setting_enablestopforumspam_on_register_desc'] = 'آیا شما میخواهید تمامی ثبت نام کنندگان توسط پایگاه داده StopForumSpam.com بررسی گردند؟';
+$l['setting_stopforumspam_on_contact'] = 'ایا میهمانان استفاده کننده از فرم تماس با ما توسط StopForumSpam بررسی شوند؟';
+$l['setting_stopforumspam_on_contact_desc'] = 'آیا باید ایمیل و آدرس آی پی میهمانان زمانی که از فرم تماس با ما استفاده می کنند توسط StopForumSpam بررسی شوند؟';
+$l['setting_stopforumspam_on_newreply'] = 'آیا پاسخ میهمانان توسط StopForumSpam بررسی شوند؟';
+$l['setting_stopforumspam_on_newreply_desc'] = 'آیا باید نام کاربری و آدرس آی پی میهمانان زمانی که پاسخ جدید ارسال می کنند توسط StopForumSpam بررسی شوند؟';
+$l['setting_stopforumspam_on_newthread'] = 'آیا موضوعات میهمانان توسط StopForumSpam بررسی شوند؟';
+$l['setting_stopforumspam_on_newthread_desc'] = 'آیا باید نام کاربری و آدرس آی پی میهمانان زمانی که موضوع جدید ارسال می کنند توسط StopForumSpam بررسی شوند؟';
 $l['setting_stopforumspam_min_weighting_before_spam'] = 'Minimum stop forum spam weighting?';
-$l['setting_stopforumspam_min_weighting_before_spam_desc'] = '
-				The minimum weighting received from StopForumSpam before deciding a user is a spammer. Should be a number between 0 and 100.';
-$l['setting_stopforumspam_check_usernames'] = 'Check usernames?';
-$l['setting_stopforumspam_check_usernames_desc'] = '
-				Should the user usernames be checked against the StopForumSpam database?';
-$l['setting_stopforumspam_check_emails'] = 'Check email addresses?';
-$l['setting_stopforumspam_check_emails_desc'] = '
-				Should the user email addresses be checked against the StopForumSpam database?';
-$l['setting_stopforumspam_check_ips'] = 'Check IP addresses?';
-$l['setting_stopforumspam_check_ips_desc'] = '
-				Should the user IP addresses be checked against the StopForumSpam database?';
-$l['setting_stopforumspam_block_on_error'] = 'Block on StopForumSpam error?';
-$l['setting_stopforumspam_block_on_error_desc'] = '
-				If there is an error retrieving information from the StopForumSpam API, should the user be blocked?';
-$l['setting_stopforumspam_log_blocks'] = 'Log StopForumSpam blocks?';
-$l['setting_stopforumspam_log_blocks_desc'] = '
-				Should every StopForumSpam block be logged?';
+$l['setting_stopforumspam_min_weighting_before_spam_desc'] = 'The minimum weighting received from StopForumSpam before deciding a user is a spammer. Should be a number between 0 and 100.';
+$l['setting_stopforumspam_check_usernames'] = 'بررسی نام های کاربری؟';
+$l['setting_stopforumspam_check_usernames_desc'] = 'آیا باید نام های کاربری توسط StopForumSpam بررسی شوند؟';
+$l['setting_stopforumspam_check_emails'] = 'بررسی آدرس های ایمیل؟';
+$l['setting_stopforumspam_check_emails_desc'] = 'آیا باید ایمیل های کاربر توسط پایگاه داده StopForumSpam بررسی شوند؟';
+$l['setting_stopforumspam_check_ips'] = 'بررسی آدرس های آی پی؟';
+$l['setting_stopforumspam_check_ips_desc'] = 'آیا باید آی پی های کاربران توسط پایگاه داده StopForumSpam بررسی شوند؟';
+$l['setting_stopforumspam_block_on_error'] = 'فعال بودن بلاک در صورت خطا در اتصال با StopForumSpam؟';
+$l['setting_stopforumspam_block_on_error_desc'] = 'اگر خطایی در دریافت اطلاعات از StopForumSpam API باشد،آیا باید کاربر بلاک گردد؟';
+$l['setting_stopforumspam_log_blocks'] = 'ثبت بلاک های StopForumSpam؟';
+$l['setting_stopforumspam_log_blocks_desc'] = 'آیا باید تمامی بلاک های StopForumSpam ثبت گردند؟';
 
 
 
