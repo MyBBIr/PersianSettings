@@ -659,21 +659,21 @@ $l['setting_mail_message_id_desc'] = 'Disabling this option on some shared hosts
 
 
 
-$l['setting_group_contactsettings'] = 'تنظیمات تماس';
-$l['setting_group_contactsettings_desc'] = 'The various options to change the behaviour of the contact page (contact.php).';
+$l['setting_group_contactsettings'] = 'تنظیمات فرم تماس با ما';
+$l['setting_group_contactsettings_desc'] = 'تنظیمات گوناگون جهت تغییر ویژگی های فرم تماس با ما (contact.php).';
 
-$l['setting_contact'] = 'Enable Contact Page';
-$l['setting_contact_desc'] = 'Setting this to yes will allow access to the contact page.';
-$l['setting_contact_guests'] = 'Disable Contact Page to Guests';
-$l['setting_contact_guests_desc'] = 'Setting this to yes will disallow access to the contact page for guests.';
-$l['setting_contact_badwords'] = 'Enable Word Filter on Contact Page';
-$l['setting_contact_badwords_desc'] = 'Setting this to yes will will send the subject and message fields through the word filter before sending.';
-$l['setting_contact_maxsubjectlength'] = 'Maximum Subject Length on Contact Page';
-$l['setting_contact_maxsubjectlength_desc'] = 'The maximum number of characters (bytes) to allow in the subject. A setting of 0 allows an unlimited length.';
-$l['setting_contact_minmessagelength'] = 'Minimum Message Length on Contact Page';
-$l['setting_contact_minmessagelength_desc'] = 'The minimum number of characters in order to send the message. A value of 0 disables this setting.';
-$l['setting_contact_maxmessagelength'] = 'Maximum Message Length on Contact Page';
-$l['setting_contact_maxmessagelength_desc'] = 'The maximum number of characters (bytes) to allow in the message. A setting of 0 allows an unlimited length.';
+$l['setting_contact'] = 'فرم تماس فعال باشد؟';
+$l['setting_contact_desc'] = 'قرار دادن این گزینه روی بله موجب فعال بودن فرم تماس می گردد.';
+$l['setting_contact_guests'] = 'غیر فعال کردن فرم تماس برای میهمانان';
+$l['setting_contact_guests_desc'] = 'قرار دادن این گزینه روی بله موجب غیر فعال کردن فرم تماس برای میهمانان می گردد.';
+$l['setting_contact_badwords'] = 'فعال بودن فیلتر کلمات در فرم تماس';
+$l['setting_contact_badwords_desc'] = 'قرار دادن این گزینه روی بله موجب می شود محتوای فیلدهای عنوان و پیام، قبل از ارسال توسط فیلتر کلمات چک شوند.';
+$l['setting_contact_maxsubjectlength'] = 'حداکثر طول عنوان در فرم تماس';
+$l['setting_contact_maxsubjectlength_desc'] = 'حداکثر تعداد کاراکترها (بایت ها) در بخش عنوان. درج عدد 0 موجب نامحدود بودن طول عنوان می گردد.';
+$l['setting_contact_minmessagelength'] = 'حداقل طول پیام در فرم تماس';
+$l['setting_contact_minmessagelength_desc'] = 'حداقل تعداد کاراکترها جهت ارسال شدن پیام. درج عدد 0 این گزینه را غیرفعال می کند.';
+$l['setting_contact_maxmessagelength'] = 'حداکثر طول پیام در فرم تماس';
+$l['setting_contact_maxmessagelength_desc'] = 'حداکثر تعداد کاراکترها (بایت ها) در بخش پیام. درج عدد 0 موجب نامحدود بودن طول پیام می گردد.';
 
 
 
@@ -696,7 +696,7 @@ $l['setting_purgespammerapikey_desc'] = 'به منظور اینکه اطلاعا
 
 
 $l['setting_group_stopforumspam'] = 'توقف اسپم انجمن';
-$l['setting_group_stopforumspam_desc'] = 'This section allows you to change the settings used for the integration with StopForumSpam.com';
+$l['setting_group_stopforumspam_desc'] = 'این بخش به شما اجازه می دهد تا تنظیمات مربوط به هماهنگی با StopForumSpam.com را تغییر دهید.';
 
 $l['setting_enablestopforumspam_on_register'] = 'ایا ثبت نام کنندگان توسط StopForumSpam.com بررسی شوند؟';
 $l['setting_enablestopforumspam_on_register_desc'] = 'آیا شما میخواهید تمامی ثبت نام کنندگان توسط پایگاه داده StopForumSpam.com بررسی گردند؟';
