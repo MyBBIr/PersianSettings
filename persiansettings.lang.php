@@ -499,22 +499,22 @@ $l['setting_maxpmquotedepth_desc'] = 'The maximum depth level for quote tags. Wh
 
 
 $l['setting_group_calendar'] = 'تقویم';
-$l['setting_group_calendar_desc'] = 'The board calendar allows the public and private listing of events and members\' birthdays. This section allows you to control and manage the settings for the Calendar (calendar.php).';
+$l['setting_group_calendar_desc'] = 'تقویم انجمن به شما این امکان را می دهد تا رویدادهای عمومی و خصوصی و همچنین تولد کاربران را ثبت کنید.این بخش به شما اجازه می دهد تا تنظیمات تقویم را کنترل و مدیریت کنید. (calendar.php)';
 
-$l['setting_enablecalendar'] = 'Enable Calendar Functionality';
-$l['setting_enablecalendar_desc'] = 'If you wish to disable the calendar on your board, set this option to no.';
+$l['setting_enablecalendar'] = 'فعال سازی قابلیت تقویم';
+$l['setting_enablecalendar_desc'] = 'اگر میخواهید تقویم را در انجمن خود غیر فعال کنید،این گزینه را روی نه قرار دهید.';
 
 
 
 $l['setting_group_whosonline'] = 'افراد حاضر';
-$l['setting_group_whosonline_desc'] = 'Various settings regarding the Who is Online functionality (online.php).';
+$l['setting_group_whosonline_desc'] = 'تنظیمات گوناگون برای بخش افراد حاضر در انجمن (online.php).';
 
-$l['setting_wolcutoffmins'] = 'Cut-off Time (mins)';
-$l['setting_wolcutoffmins_desc'] = 'The number of minutes before a user is marked offline. Recommended: 15.';
-$l['setting_refreshwol'] = 'Refresh Who\'s online page Time (mins)';
-$l['setting_refreshwol_desc'] = 'The number of minutes before the "Who\'s online" page refreshes. 0 is disabled.';
-$l['setting_wolorder'] = 'Who\'s Online Order';
-$l['setting_wolorder_desc'] = 'List the online users by username or last activity. Note: This setting only takes effect on the portal and index pages.';
+$l['setting_wolcutoffmins'] = 'زمان Cut-off (به دقیقه)';
+$l['setting_wolcutoffmins_desc'] = 'بعد از گذشت چند دقیقه از خروج کاربر،بصورت آفلاین نمایش داده شود؟ توصیه شده:15';
+$l['setting_refreshwol'] = 'زمان تازه سازی صفحه افراد آنلاین (به دقیقه)';
+$l['setting_refreshwol_desc'] = 'هر چند دقیقه یک بار صفحه افراد آنلاین تازه سازی گردد؟ 0 برای غیرفعال سازی این قابلیت';
+$l['setting_wolorder'] = 'ترتیب افراد آنلاین';
+$l['setting_wolorder_desc'] = 'کاربران را براساس نام کاربری یا آخرین فعالیتشان لیست کنید. توجه: این ویژگی تنها در صفحات پورتال و ایندکس اثر گذار است.';
 
 
 
