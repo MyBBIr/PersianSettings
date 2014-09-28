@@ -569,14 +569,14 @@ $l['setting_portal_excludediscussion_desc'] = 'Please select the forums you wish
 $l['setting_group_search'] = 'سیستم جستجو';
 $l['setting_group_search_desc'] = 'The various settings in this group allow you to make changes to the built in search mechanism for threads and posts in MyBB.';
 
-$l['setting_searchtype'] = 'Search Type';
-$l['setting_searchtype_desc'] = 'Please select the type of search system you wish to use. You can either chose between "Standard", or "Full Text" (depending on your database). Fulltext searching is more powerful than the standard MyBB searching and quicker too.';
-$l['setting_searchfloodtime'] = 'Search Flood Time (seconds)';
-$l['setting_searchfloodtime_desc'] = 'Enter the time in seconds for the minimum allowed interval for searching. This prevents users from overloading your server by constantly performing searches. Set to 0 to disable.';
-$l['setting_minsearchword'] = 'Minimum Search Word Length';
-$l['setting_minsearchword_desc'] = 'Enter the minimum number of characters an individual word in a search query can be. Set to 0 to disable (and accept the hard limit default of 3 for standard searching and 4 for MySQL fulltext searching). If you use MySQL fulltext searching and set this lower than the MySQL setting - MySQL will override it.';
-$l['setting_searchhardlimit'] = 'Hard Limit for Maximum Search Results';
-$l['setting_searchhardlimit_desc'] = 'Enter the maximum amount of results to be processed. Set to 0 to disable. On larger boards (more than 1 million posts) this should be set to no more than 1000.';
+$l['setting_searchtype'] = 'نوع جستجو';
+$l['setting_searchtype_desc'] = 'لطفا نوع سیستم جستجو را انتخاب کنید. شما میتوانید یکی از دو حالت "استاندارد" و یا "تمام متن" را انتخاب کنید (با توجه به پایگاه داده خود).حالت تمام متن قویتر و سریعتر از حالت جستجوی استاندارد مای بی بی می باشد.';
+$l['setting_searchfloodtime'] = 'سیر زمانی هر جستجو(ثانیه)';
+$l['setting_searchfloodtime_desc'] = 'حداقل میزان وقفه مجاز بین هرجستجو را به ثانیه وارد کنید.این قابلیت از جستجوهای مکرر کاربران و نهایتا از لود بیش از حد سرور شما جلوگیری میکند. برای غیرفعال سازی این قابلیت 0 را وارد کنید.';
+$l['setting_minsearchword'] = 'حداقل طول کلمه مورد جستجو';
+$l['setting_minsearchword_desc'] = 'تعداد حداقل کاراکترهای یک کلمه مورد  جستجو را وارد کنید. برای غیرفعال سازی این قابلیت (و پذیرش محدوده 3 کاراکتر برای جستجوی استاندارد و 4 کاراکتر برای جستجوی تمام متن MySQL ) 0 را وارد کنید.اگر جستجوی تمام متن MySQL را انتخاب کنید و این عدد را کمتر از محدوده کاراکتری MySQL (4) قرار دهید، MySQLرقم شما را نادیده خواهد گرفت.';
+$l['setting_searchhardlimit'] = 'حداکثر محدوده نتایج جستجو';
+$l['setting_searchhardlimit_desc'] = 'تعداد حداکثر نتایج جهت پردازش را وارد کنید.برای غیرفعال سازی 0 را وارد کنید. در انجمن های بزرگتر (با بیش از 1 میلیون پست) این مقدار نباید بیشتر از 1000 قرار داده شود.';
 
 
 
