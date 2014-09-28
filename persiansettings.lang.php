@@ -567,7 +567,7 @@ $l['setting_portal_excludediscussion_desc'] = 'Please select the forums you wish
 
 
 $l['setting_group_search'] = 'سیستم جستجو';
-$l['setting_group_search_desc'] = 'The various settings in this group allow you to make changes to the built in search mechanism for threads and posts in MyBB.';
+$l['setting_group_search_desc'] = 'تنظیمات گوناگون در این بخش به شما اجازه می دهد تا تغییراتی در مکانیسم جستجو در ارسال ها و موضوعات در مای بی بی ایجاد کنید.';
 
 $l['setting_searchtype'] = 'نوع جستجو';
 $l['setting_searchtype_desc'] = 'لطفا نوع سیستم جستجو را انتخاب کنید. شما میتوانید یکی از دو حالت "استاندارد" و یا "تمام متن" را انتخاب کنید (با توجه به پایگاه داده خود).حالت تمام متن قویتر و سریعتر از حالت جستجوی استاندارد مای بی بی می باشد.';
