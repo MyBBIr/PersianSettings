@@ -101,13 +101,13 @@ $l['setting_group_server'] = 'گزینه‌های سرور و بهینه‌سا�
 $l['setting_group_server_desc'] = 'این گزینه‌ها به شما اجازه می دهد تا تنظیم‌های مختلف سرور و بهینه‌سازی سرور برای بارگذاری بهتر سرور‌شما و به دست‌آوردن عملکرد بهتر انجمنتان را تنظیم کنید.';
 
 $l['setting_seourls'] = 'فعال سازی URLهای دوستانه با موتورهای جستجو؟';
-$l['setting_seourls_desc'] = 'Search engine friendly URLs change the MyBB links to shorter URLs which search engines prefer and are easier to type. showthread.php?tid=1 becomes thread-1.html. <strong>Once this setting is enabled you need to make sure you have the MyBB .htaccess in your MyBB root directory (or the equivalent for your web server). Automatic detection may not work on all servers.</strong> Please see the <a href="http://docs.mybb.com/SEF_URLs.html">MyBB Docs</a> for assistance.';
-$l['setting_seourls_archive'] = 'Enable search engine friendly URLs in Archive?';
-$l['setting_seourls_archive_desc'] = 'Search engine friendly URLs can be used in the archive. <strong>Once this setting is enabled ensure the archive still works as expected.</strong>';
-$l['setting_gzipoutput'] = 'Use GZip Page Compression?';
-$l['setting_gzipoutput_desc'] = 'Do you want to compress pages in GZip format when they are sent to the browser? This means quicker downloads for your visitors, and less traffic usage for you.';
-$l['setting_gziplevel'] = 'GZip Page Compression Level';
-$l['setting_gziplevel_desc'] = 'Set the level for GZip Page Compression from 0-9.  (0=no compression, 9=maximum compression). A level of 4 is recommended for most installations.';
+$l['setting_seourls_desc'] = 'URLهای دوستانه برای موتورهای دوستانه پیوند‌های مای بی‌بی را به پیوند‌هایی که برای موتورهای جستجو بهتر و تایپ آنها راحت تر است تبدیل می‌کند. showthread.php?tid=1 به thread-1.html تبدیل خواهد شد. <strong>هنگامی که این تنظیم فعال باشد شما نیازدارید تا فایل .htaccess مای بی‌بی را در پوشه‌ی ریشه‌ی مای بي‌بی قرار دهید (یا معادل آن برای سرور شما).  تشخیص خودکار ممکن است برای همه‌ی سرورهای وب کار نکند.</strong> لطفا برای اطلاعات بیشتر  <a href="http://docs.mybb.com/SEF_URLs.html">مستندات مای بي‌بی</a> را مشاهده نمائید.';
+$l['setting_seourls_archive'] = 'فعال‌سازی URLهای دوستانه برای موتورهای جستجو در آرشیو؟';
+$l['setting_seourls_archive_desc'] = 'URLهای دوستانه برای موتورهای جستجو در آرشیو استفاده شود. <strong>هنگامی که این تنظیم فعال می‌شود بررسی کنید که آرشیو آن‌طور که انتظار می‌رود کار می کند.</strong>';
+$l['setting_gzipoutput'] = 'استفاده از فشرده‌سازی صفحه‌ی Gzip';
+$l['setting_gzipoutput_desc'] = 'آیا شما می‌خواهید که صفحه‌های وب‌سایت شما به حالت GZip وقتی که اطلاعات به مرورگرتان ارسال می‌شود فشرده شود؟ این به معنی دانلود سریعتر توسط بازدیدکنندگان شما و استفاده از ترافیک کمتر برای شما است.';
+$l['setting_gziplevel'] = 'مرحله‌ی فشرده‌سازی صفحه‌ی GZip ';
+$l['setting_gziplevel_desc'] = 'مرحله‌ی فشرده‌سازی صفحه‌ی GZip را از ۰ تا ۱۰ انتخاب کنید. (0=بدون فشرده‌سازی،  9=حداکثر فشرده‌ساززی). مرحله‌ی ۴ برای عموم نصب‌ها پیشنهاد می‌شود.';
 $l['setting_nocacheheaders'] = 'Send No Cache Headers';
 $l['setting_nocacheheaders_desc'] = 'With this option you can prevent caching of the page by the browser.';
 $l['setting_redirects'] = 'Friendly Redirection Pages';
@@ -146,20 +146,20 @@ $l['setting_cdnpath_desc'] = 'If you have enabled the CDN option above, please o
 
 
 $l['setting_group_datetime'] = 'حالت نمایش تاریخ و ساعت';
-$l['setting_group_datetime_desc'] = 'Here you can specify the different date and time formats used to display dates and times on the forums.';
+$l['setting_group_datetime_desc'] = 'در اینجا شما می‌تواند حالت‌های مختلفی برای تاریخ و زمان که برای نشان‌دادن تاریخ و زمان در انجمنتان استفاده می‌شود، انتخاب کنید.';
 
-$l['setting_dateformat'] = 'Date Format';
-$l['setting_dateformat_desc'] = 'The format of the dates used on the forum. This format uses the PHP date() function. We recommend not changing this unless you know what you\'re doing.';
-$l['setting_timeformat'] = 'Time Format';
-$l['setting_timeformat_desc'] = 'The format of the times used on the forum. This format uses PHP\'s date() function. We recommend not changing this unless you know what you\'re doing.';
-$l['setting_datetimesep'] = 'Date/Time Separator';
-$l['setting_datetimesep_desc'] = 'Where MyBB joins date and time formats this setting is used to separate them (typically a space or comma).';
-$l['setting_regdateformat'] = 'Registered Date Format';
-$l['setting_regdateformat_desc'] = 'The format used on showthread where it shows when the user registered.';
-$l['setting_timezoneoffset'] = 'Default Timezone Offset';
-$l['setting_timezoneoffset_desc'] = 'Here you can set the default timezone offset for guests and members using the default offset.';
-$l['setting_dstcorrection'] = 'Day Light Savings Time';
-$l['setting_dstcorrection_desc'] = 'If times are an hour out above and your timezone is selected correctly, enable day light savings time correction.';
+$l['setting_dateformat'] = 'حالت تاریخ';
+$l['setting_dateformat_desc'] = 'حالتی که برای تاریخ‌ها در انجمن شما استفاده شود. این فرمت در تابع date() زبان PHP استفاده می‌شود. ما به شما پیشنهاد نمی‌کنیم که اگر نمی‌دانید که چه میکنید این را تغییر دهید.';
+$l['setting_timeformat'] = 'حالت زمان';
+$l['setting_timeformat_desc'] = 'حالت زمان که در انجمنتان استفاده شود. این حالت از تابع date() در PHP استفاده می‌شود. ما به شما پیشنهاد می‌کنید که اگر نمی‌دانید که چه می‌کنید، این را تغییر ندهید.';
+$l['setting_datetimesep'] = 'جداکننده تاریخ/زمان';
+$l['setting_datetimesep_desc'] = 'در جاهایی که تاریخ و زمان به هم می‌پیونند از این برای جداکردن آنها استفاده می‌شود (به طور معمول یک فاصله یا یک ویرگول).';
+$l['setting_regdateformat'] = 'حالت تاریخ ثبت‌نام';
+$l['setting_regdateformat_desc'] = 'حالتی که در نمایش موضوع در جایی که تاریخ ثبت‌نام کاربر را نمایش می دهد استفاده شود.';
+$l['setting_timezoneoffset'] = 'منطقه‌ی زمانی پیش‌فرض';
+$l['setting_timezoneoffset_desc'] = 'در اینجا می‌توانید منطقه‌ی زمانی که برای مهمان ها و کاربرانی که از منطقه‌ی زمانی پیش‌فرض استفاده می‌کنند را تعیین کنید.';
+$l['setting_dstcorrection'] = 'ساعت تابستانی';
+$l['setting_dstcorrection_desc'] = 'اگر در منطقه‌ی زمانی شما ساعت یک ساعت به عقب باز می‌گردد، برای اصلاح آن ساعت تابستانی را فعال کنید.';
 
 
 
