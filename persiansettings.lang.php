@@ -108,18 +108,18 @@ $l['setting_gzipoutput'] = 'استفاده از فشرده‌سازی صفحه�
 $l['setting_gzipoutput_desc'] = 'آیا شما می‌خواهید که صفحه‌های وب‌سایت شما به حالت GZip وقتی که اطلاعات به مرورگرتان ارسال می‌شود فشرده شود؟ این به معنی دانلود سریعتر توسط بازدیدکنندگان شما و استفاده از ترافیک کمتر برای شما است.';
 $l['setting_gziplevel'] = 'مرحله‌ی فشرده‌سازی صفحه‌ی GZip ';
 $l['setting_gziplevel_desc'] = 'مرحله‌ی فشرده‌سازی صفحه‌ی GZip را از ۰ تا ۱۰ انتخاب کنید. (0=بدون فشرده‌سازی،  9=حداکثر فشرده‌ساززی). مرحله‌ی ۴ برای عموم نصب‌ها پیشنهاد می‌شود.';
-$l['setting_nocacheheaders'] = 'Send No Cache Headers';
-$l['setting_nocacheheaders_desc'] = 'With this option you can prevent caching of the page by the browser.';
-$l['setting_redirects'] = 'Friendly Redirection Pages';
-$l['setting_redirects_desc'] = 'This will enable friendly redirection pages instead of bumping the user directly to the page.';
-$l['setting_load'] = '*NIX Load Limiting';
-$l['setting_load_desc'] = 'Limit the maximum server load before MyBB rejects people. 0 for none. Recommended limit is 5.0.';
-$l['setting_tplhtmlcomments'] = 'Output template start/end comments?';
-$l['setting_tplhtmlcomments_desc'] = 'This will enable or disable the output of template start/end comments in the HTML.';
-$l['setting_use_xmlhttprequest'] = 'Enable XMLHttp request features?';
-$l['setting_use_xmlhttprequest_desc'] = 'This will enable or disable the XMLHttp request features.';
-$l['setting_extraadmininfo'] = 'Advanced Stats / Debug information';
-$l['setting_extraadmininfo_desc'] = 'Shows Server load, generation time, memory usage, etc on the bottom of all pages in the root folder. Please note that only administrators see this information.';
+$l['setting_nocacheheaders'] = 'ارسال سرآیند‌های عدم‌کش‌کردن';
+$l['setting_nocacheheaders_desc'] = 'با این تنظیم شما می‌توانید از کش‌شدن و ذخیره شدن اطلاعات در مرورگرتان جلوگیری کنید.';
+$l['setting_redirects'] = 'صفحات تغییر مسیر دوستانه';
+$l['setting_redirects_desc'] = 'این صفحه‌های تغییر مسیر دوستانه را به جای پرتاب سریع کاربر به صفحه را ممکن می‌سازد.';
+$l['setting_load'] = 'محدودیت بارگذاری *NIX';
+$l['setting_load_desc'] = 'محدودیت در حداکثر بارگذاری سرور که مای بی‌بی کاربران را قبل از آن رد کند. 0 برای هیچ محدودیتی. پیشنهاد می‌شود بر روی 5.0 محدود کنید.';
+$l['setting_tplhtmlcomments'] = 'کامنت در شروع و پایان خروجی قالب';
+$l['setting_tplhtmlcomments_desc'] = 'این باعث فعال یا غیرفعال سازی خروجی دادن شروع یا پایان قالب‌ها به صورت یک comment در HTML می‌شود.';
+$l['setting_use_xmlhttprequest'] = 'فعال سازی ویژگی درخواست XMLHttp؟';
+$l['setting_use_xmlhttprequest_desc'] = 'این درخواست ویژگی‌های XMLHttp را فعال یا غیرفعال می‌کند.';
+$l['setting_extraadmininfo'] = 'آمار پیشرفته / اطلاعات عیب‌یابیn';
+$l['setting_extraadmininfo_desc'] = 'نمایش سرعت بارگذاری سرور، زمان ساخته شود، مموری استفاده شده در پایین همه‌ی صفحات. لطفا دقت داشته باشید که تنها مدیران کل می‌توانند این اطلاعات را مشاهده نمایند.';
 $l['setting_uploadspath'] = 'Uploads Path';
 $l['setting_uploadspath_desc'] = 'The path used for all board uploads. It <b>must be chmod 777</b> (on *nix servers).';
 $l['setting_useerrorhandling'] = 'Use Error Handling';
@@ -737,7 +737,7 @@ $l['setting_allowgooglefield_desc'] = 'گروه های کاربری را که م
 
 
 
-$l['setting_group_statspage'] = 'صفحه ی آمار';
+$l['setting_group_statspage'] = 'صفحه‌ی آمار';
 $l['setting_group_statspage_desc'] = 'این بخش به شما اجازه می دهد تا تنظیمات صفحه آمار را تغییر دهید.';
 
 $l['setting_statsenabled'] = 'فعال کردن صفحات آمار';
