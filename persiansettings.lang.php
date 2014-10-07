@@ -120,10 +120,10 @@ $l['setting_use_xmlhttprequest'] = 'فعال سازی ویژگی درخواست 
 $l['setting_use_xmlhttprequest_desc'] = 'این درخواست ویژگی‌های XMLHttp را فعال یا غیرفعال می‌کند.';
 $l['setting_extraadmininfo'] = 'آمار پیشرفته / اطلاعات عیب‌یابیn';
 $l['setting_extraadmininfo_desc'] = 'نمایش سرعت بارگذاری سرور، زمان ساخته شود، مموری استفاده شده در پایین همه‌ی صفحات. لطفا دقت داشته باشید که تنها مدیران کل می‌توانند این اطلاعات را مشاهده نمایند.';
-$l['setting_uploadspath'] = 'Uploads Path';
-$l['setting_uploadspath_desc'] = 'The path used for all board uploads. It <b>must be chmod 777</b> (on *nix servers).';
-$l['setting_useerrorhandling'] = 'Use Error Handling';
-$l['setting_useerrorhandling_desc'] = 'If you do not wish to use the integrated error handling for MyBB, you may turn this option off. However, it is recommended that it stay on';
+$l['setting_uploadspath'] = 'مسیر آپلودها';
+$l['setting_uploadspath_desc'] = 'مسیری که برای همه‌ی آپلودهای انجمن استفاده شود. این <b>باید دارای دسترسی 777 باشد.</b> (در سرورهای *nix ).';
+$l['setting_useerrorhandling'] = 'استفاده از اداره خطاها';
+$l['setting_useerrorhandling_desc'] = 'اگر شما نمی‌خواهید از سیستم اداره‌ی خطاها در مای بی‌بی استفاده شود، شما می‌توانید این تنظیم را بر روی خاموش قرار دهید. به طور معمول پیشنهاد می‌شود بر روی روشن بماند';
 $l['setting_errorlogmedium'] = 'Error Logging Medium';
 $l['setting_errorlogmedium_desc'] = 'The type of the error handling to use.';
 $l['setting_errortypemedium'] = 'Error Type Medium';
@@ -164,28 +164,29 @@ $l['setting_dstcorrection_desc'] = 'اگر در منطقه‌ی زمانی شم�
 
 
 $l['setting_group_forumhome'] = 'گزینه‌های صفحه‌ی نخست انجمن';
-$l['setting_group_forumhome_desc'] = 'This section allows you to manage the various settings used on the forum home (index.php) of your boards such as enabling and disabling different features.';
+$l['setting_group_forumhome_desc'] = 'این بخش به شما اجازه می‌دهد تا تنظیماتی که در صفحه‌ی خانگی انجمن‌شما (index.php) استفاده می‌شود را فعال و غیرفعال کنید.';
 
-$l['setting_showdescriptions'] = 'Show Forum Descriptions?';
-$l['setting_showdescriptions_desc'] = 'This option will allow you to turn off showing the descriptions for forums.';
-$l['setting_subforumsindex'] = 'Subforums to show on Index listing';
-$l['setting_subforumsindex_desc'] = 'The number of subforums that you wish to show inside forums on the index and forumdisplay pages. Set to 0 to not show the subforum list';
-$l['setting_subforumsstatusicons'] = 'Show Subforum Status Icons?';
-$l['setting_subforumsstatusicons_desc'] = 'Show icons indicating whether or not a subforum contains new posts or not?  This won\'t have any effect unless you enabled subforums display on the index.';
-$l['setting_hideprivateforums'] = 'Hide Private Forums?';
-$l['setting_hideprivateforums_desc'] = 'You can hide private forums by turning this option on. This option also hides forums on the forum jump and all subforums.';
-$l['setting_modlist'] = 'Forums\' Moderator Listing';
-$l['setting_modlist_desc'] = 'Here you can turn on or off the listing of moderators for each forum on index.php and forumdisplay.php';
-$l['setting_showbirthdays'] = 'Show Today\'s Birthdays?';
-$l['setting_showbirthdays_desc'] = 'Do you want to show today\'s birthdays on the forum homepage?';
-$l['setting_showbirthdayspostlimit'] = 'Only Show Birthdays with x Posts';
-$l['setting_showbirthdayspostlimit_desc'] = 'You can choose to only display users with at least the following amount of posts. A setting of 0 will show all users who have a birthday today.';
-$l['setting_showwol'] = 'Show Who\'s Online?';
-$l['setting_showwol_desc'] = 'Display the currently active users on the forum home page.';
-$l['setting_showindexstats'] = 'Show Small Stats Section';
-$l['setting_showindexstats_desc'] = 'Do you want to show the total number of threads, posts, members, and the last member on the forum home?';
-$l['setting_showforumviewing'] = 'Show x viewing forum';
-$l['setting_showforumviewing_desc'] = 'Displays the currently active users viewing each forum.';
+$l['setting_showdescriptions'] = 'نمایش توضیحات انجمن‌ها';
+$l['setting_showdescriptions_desc'] = 'این تنظیم به شما اجازه می‌دهد تا نمایش دادن توضیحات انجمن‌ها را برای انجمنتان خاموش کنید.';
+$l['setting_subforumsindex'] = 'زیرانجمن‌هایی که در لیست صفحه‌ی نخست نمایش داده شوند';
+$l['setting_subforumsindex_desc'] = 'تعداد زیرانجمن‌هایی که شما می‌خواهید برای انجمن‌هایتان در صفحه‌ی نخست و نمایش‌موضوع نشان داده شود. برای نشان ندادن لیست زیرانجمن‌ها بر روی ۰ قرار دهید';
+$l['setting_subforumsstatusicons'] = 'نشان‌دادن نماد‌های حالت زیرانجمن‌ها؟';
+$l['setting_subforumsstatusicons_desc'] = 'نمایش نماد‌هایی که میگوییند که انجمن شامل ارسال‌های جدید است یا خیر؟ 
+این هیچ اثری را نخواهد داشت مگر اینکه نمایش زیرانجمن‌ها را در صفحه‌ی نخست فعال کنید.';
+$l['setting_hideprivateforums'] = 'پنهان سازی انجمن‌های خصوصی؟';
+$l['setting_hideprivateforums_desc'] = 'شما می‌توانید انجمن‌های خصوصی را با فعال‌سازی این تنظیم پنهان سازید. این تنظیم همچنین انجمن‌ها را در پرش به انجمن و همه‌ی زیرانجمن‌ها پنهان می‌سازد.';
+$l['setting_modlist'] = 'لیست مدیران انجمن';
+$l['setting_modlist_desc'] = 'در اینجا شما می‌توانید نشان دادن لیست مدیران انجمن را در صفحه‌ی نخست و صفحه‌ی نمایش موضوع فعال/غیرفعال سازید.';
+$l['setting_showbirthdays'] = 'نمایش متولدین امروز؟';
+$l['setting_showbirthdays_desc'] = 'آیا شما می‌خواهید متولیدن امروز را در صفحه‌ی خانگی انجمن نشان داده شود؟';
+$l['setting_showbirthdayspostlimit'] = 'تنها نمایش متولیدن با x ارسال';
+$l['setting_showbirthdayspostlimit_desc'] = 'شما می‌توانید انتخاب کنید که تنها کاربرانی که دارای حداقل این تعداد ارسال هستند نمایش داده شوند. قرار دادن تنظیم بر روی ۰ باعث نمایش همه‌ی کاربرانی که متولد امروز هستند می‌شود.';
+$l['setting_showwol'] = 'نمایش افراد حاضر در سایت؟';
+$l['setting_showwol_desc'] = 'نشان دادن افرادی که هم‌اکنون حاضر هستند در صفحه‌نخست انجمن.';
+$l['setting_showindexstats'] = 'نشان دادن بخش آمار کوچک';
+$l['setting_showindexstats_desc'] = 'آیا شما می‌خواهید که تعداد موضوعات ، ارسال‌ها، کاربران و آخرین کاربر عضوشده در صفحه‌ی نخست نمایش داده شود؟';
+$l['setting_showforumviewing'] = 'نمایش x بازدید کننده انجمن';
+$l['setting_showforumviewing_desc'] = 'نشان دادن کاربرانی که درحال مشاهده هر انجمن هستند.';
 
 
 
