@@ -191,50 +191,51 @@ $l['setting_showforumviewing_desc'] = 'نشان دادن کاربرانی که �
 
 
 $l['setting_group_forumdisplay'] = 'گزینه‌های نمایش انجمن';
-$l['setting_group_forumdisplay_desc'] = 'This section allows you to manage the various settings used on the forum display (forumdisplay.php) of your boards such as enabling and disabling different features.';
+$l['setting_group_forumdisplay_desc'] = 'این بخش به شما اجازه می‌دهد تا بخش‌های مختف استفاده شده در نمایش انجمن خود برای فعال یا غیرفعال کردن ویژگی‌های مختلف را غیرفعال کنید.';
 
-$l['setting_threadsperpage'] = 'تاپیک در هر صفحه';
-$l['setting_threadsperpage_desc'] = 'The number of threads to display per page on the forum display';
-$l['setting_hottopic'] = 'پاسخ ها برای تاپیک داغ';
-$l['setting_hottopic_desc'] = 'The number of replies that is needed for a topic to be considered \'hot\'.';
-$l['setting_hottopicviews'] = 'Views For Hot Topic';
-$l['setting_hottopicviews_desc'] = 'The number of views a thread can have before it is considered \'hot\'.';
-$l['setting_usertppoptions'] = 'User Selectable Threads Per Page';
-$l['setting_usertppoptions_desc'] = 'If you would like to allow users to select how many threads per page are shown in a forum, enter the options they should be able to select separated with commas. If this is left blank they will not be able to choose how many threads are shown per page.';
-$l['setting_dotfolders'] = 'Use \'dot\' Icons';
-$l['setting_dotfolders_desc'] = 'Do you want to show dots on the thread indicators of threads users have participated in.';
-$l['setting_allowthreadratings'] = 'Use Thread Ratings?';
-$l['setting_allowthreadratings_desc'] = 'Allow users to rate threads?';
-$l['setting_browsingthisforum'] = 'Users Browsing this Forum';
-$l['setting_browsingthisforum_desc'] = 'Here you can turn off the \'users browsing this forum\' feature.';
-$l['setting_announcementlimit'] = 'Announcements Limit';
-$l['setting_announcementlimit_desc'] = 'The number of forum announcements to  show in the thread listing on the forum display pages. Set to 0 to disable announcements altogether.';
-$l['setting_readparentforums'] = 'Attempt to Mark Parent Forums as Read';
-$l['setting_readparentforums_desc'] = 'When set to yes, this setting will attempt to mark the parent forums of a sub-forum as read if there are no more unread posts. Please note that this setting can lead to a decrease in performance and multiple database queries and therefore must be treated as experimental. See the <a href="http://docs.mybb.com/165.html">MyBB Docs</a> for more information regarding this change.';
+$l['setting_threadsperpage'] = 'موضوع‌ها در هر صفحه';
+$l['setting_threadsperpage_desc'] = 'تعداد موضوع‌هایی که در هر صفحه نمایش داده شوند';
+$l['setting_hottopic'] = 'پاسخ‌ها برای موضوع‌های داغ';
+$l['setting_hottopic_desc'] = 'تعداد پاسخ‌هایی که برای اینکه یه موضوع داغ شود نیاز است.';
+$l['setting_hottopicviews'] = 'بازدیدها برای موضوع‌های داغ';
+$l['setting_hottopicviews_desc'] = 'تعداد بازدید‌هایی که یک موضوع باید قبل از اینکه داغ شود داشته باشد.';
+$l['setting_usertppoptions'] = 'موضوع‌های انتخابی کاربر در هر صفحه';
+$l['setting_usertppoptions_desc'] = 'دوست دارید کاربران بتوانند چه تعداد موضوع را برای نمایش دادن در هر صفحه از انجمن‌ها انتخاب کنند، مقادیر را با کاما از هم جدا کنید. برای اینکه این امکان غیرفعال شود این فیلد را خالی رها کنید.';
+$l['setting_dotfolders'] = 'استفاده از نماد‌های «نقطه»';
+$l['setting_dotfolders_desc'] = 'آیا شما می‌خواهید که نقطه‌ای در موضوع‌هایی که کاربران در آن فعالیت داشتند نمایش داده شود؟';
+$l['setting_allowthreadratings'] = 'استفاده از امتیازدهی موضوع';
+$l['setting_allowthreadratings_desc'] = 'اجازه دادن کاربران به اینکه به موضوعات امتیاز دهند؟';
+$l['setting_browsingthisforum'] = 'کاربران بازدیدکننده این انجمن';
+$l['setting_browsingthisforum_desc'] = 'در اینجا شما می‌توانید ویژگی «کاربران بازدیدکننده این انجمن» را غیرفعال نمائید.';
+$l['setting_announcementlimit'] = 'محدودیت اطلاعیه‌هاt';
+$l['setting_announcementlimit_desc'] = 'تعداد اطلاعیه‌هایی که در لیست موضوعات در صفحات نمایش انجمن نشان داده شودs.برای غیرفعال سازی اطلاعیه‌ها بر روی ۰ قرار دهید.';
+$l['setting_readparentforums'] = 'امکان علامت‌گذاری انجمن به عنوان خوانده‌شده';
+$l['setting_readparentforums_desc'] = 'هنگامی که این را بر روی بله بگذارید، این تنظیم امکان علامت‌گذاری انجمن والد و زیرانجمن هایش را به عنوان‌خوانده شده فراهم می‌سازد.
+دقت کنید که این میتواند موجب کاهش عمل‌کرد پایگاه داده و اجرای کوئری‌های بسیار شود. لطفا <a href="http://docs.mybb.com/165.html">مستندات مای بی‌بی</a> را برای اطلاعات بیشتر این تغییر مشاهده کنید.';
 
 
 
 $l['setting_group_showthread'] = 'گزینه‌های نمایش موضوع';
-$l['setting_group_showthread_desc'] = 'This section allows you to manage the various settings used on the thread display page (showthread.php) of your boards such as enabling and disabling different features.';
+$l['setting_group_showthread_desc'] = 'این بخش به شما اجازه می‌دهد تا تنظیمات گوناگون استفاده شده در صفحه‌ی نمایش موضوع را برای فعال یا غیرفعال کردن ویژگی‌های مختلف مدیریت کنید.';
 
-$l['setting_postlayout'] = 'Post Layout';
-$l['setting_postlayout_desc'] = 'Allows you to switch between the classic and new horizontal layout modes. Classic mode shows the author information to the left of the post, horizontal shows the author information above the post.';
-$l['setting_postsperpage'] = 'Posts Per Page:';
-$l['setting_postsperpage_desc'] = 'The number of posts to display per page. We recommend its not higher than 20 for people with slower connections.';
-$l['setting_userpppoptions'] = 'User Selectable Posts Per Page';
-$l['setting_userpppoptions_desc'] = 'If you would like to allow users to select how many posts are shown per page in a thread, enter the options they should be able to select separated with commas. If this is left blank they will not be able to choose how many posts are shown per page.';
-$l['setting_postmaxavatarsize'] = 'Maximum Avatar Dimensions in Posts';
-$l['setting_postmaxavatarsize_desc'] = 'The maximum dimensions for avatars when being displayed in a post. If an avatar is too large, it will automatically be scaled down.';
-$l['setting_threadreadcut'] = 'Read Threads in Database (Days)';
-$l['setting_threadreadcut_desc'] = 'The number of days that you wish to keep thread read information in the database. For large boards, we do not recommend a high number as the board will become slower. Set to 0 to disable.';
+$l['setting_postlayout'] = 'حالت ارسال';
+$l['setting_postlayout_desc'] = 'به شما اجازه می‌دهد تا بین حالت قدیمی و حالت افقی جدید انتخاب کنید. حالت قدیمی اطلاعات نویسنده را در سمت راست ارسال نمایش می‌دهد، حالت افقی اطلاعات نویسنده را در بالای ارسال نمایش می‌دهد.';
+$l['setting_postsperpage'] = 'ارسال‌ها در هر صفحه:';
+$l['setting_postsperpage_desc'] = 'تعداد ارسال‌هایی که در هر صفحه نمایش داده شود. ما پیشنهاد می‌کنیم که این  بیشتر از  20 برای مردم با اتصال‌های کند نباشد.';
+$l['setting_userpppoptions'] = 'تعداد ارسال‌های در صفحه‌ی قابل انتخاب توسط کاربر';
+$l['setting_userpppoptions_desc'] = 'اگر شما می‌خواهید که به کاربران اجازه دهید که تعداد ارسال‌هایی که در هر صفحه از موضوع نمایش داده شود را انتخاب کنند، گزینه‌هایی که بتوانند انتخاب کنند را با جداسازی با یک کاما در اینجا وارد کنید. اگر این را خالی رهاکنید کاربران امکان انتخاب تعداد ارسال در هر صفحه را نخواهند داشت.';
+$l['setting_postmaxavatarsize'] = 'حداکثر اندازه‌ی آواتار در ارسال‌ها';
+$l['setting_postmaxavatarsize_desc'] = 'حداکثر اندازه‌ی آواتارها که در یک ارسال نمایش داده شود. اگر یک آواتار خیلی بزرگ باشد یه صورت خودکار کوچک خواهد شد.';
+$l['setting_threadreadcut'] = 'خواندن موضوع‌ها در پایگاه داده (روزها)';
+$l['setting_threadreadcut_desc'] = 'تعدادروزهایی که اطلاعات خوانده‌شدن موضوع‌ها در پایگاه‌داده نگه داشته شود. برای انجمن‌های بزرگ، که عدد بزرگی وارد شود. برای غیرفعال سازی بر روی ۰ قرار دهید.';
 $l['setting_threadusenetstyle'] = 'Usenet Style Thread View';
 $l['setting_threadusenetstyle_desc'] = 'Selecting yes will cause posts to look similar to how posts look in USENET. No will cause posts to look the modern way.';
 $l['setting_quickreply'] = 'نمایش فرم پاسخ سریع';
-$l['setting_quickreply_desc'] = 'Allows you to set whether or not the quick reply form will be shown at the bottom of threads.';
+$l['setting_quickreply_desc'] = 'به شما اجازه می‌دهد تا انتخاب کنید که آیا فرم پاسخ‌سریع در پایین موضوع‌ها نمایش داده شود یا خیر.';
 $l['setting_multiquote'] = 'نمایش دکمه نقل قول چندگانه';
-$l['setting_multiquote_desc'] = 'The multi-quote button allows users to select a series of posts then click Reply and have those posts quoted in their message.';
-$l['setting_showsimilarthreads'] = 'Show \'Similar Threads\' Table';
-$l['setting_showsimilarthreads_desc'] = 'The Similar Threads table shows threads that are relevant to the thread being read. You can set the relevancy below.';
+$l['setting_multiquote_desc'] = 'دکمه‌ی نقل‌قول چندگانه به کاربران اجازه می‌دهد تا یک سری از ارسال‌ها را با کلیک بر روی دکمه‌ی پاسخ در پیامشان نقل قول کنند.';
+$l['setting_showsimilarthreads'] = 'نمایش جدول «موضوعات مشابه»';
+$l['setting_showsimilarthreads_desc'] = 'این جدول موضوعاتی که مشابه موضوع درحال خوانده شدن می‌باشد را نمایش می‌دهد. شما می‌توانید حالت مرتبط را در زیر انتخاب کنید.';
 $l['setting_similarityrating'] = 'Similar Threads Relevancy Rating';
 $l['setting_similarityrating_desc'] = 'This allows you to limit similar threads to ones more relevant (0 being not relevant). This number should not be over 10 and should not be set low (<5) for large forums. Does not apply to PgSQL databases.';
 $l['setting_similarlimit'] = 'محدودیت تعداد تاپیک های مشابه';
