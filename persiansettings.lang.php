@@ -521,22 +521,22 @@ $l['setting_wolorder_desc'] = 'کاربران را براساس نام کارب�
 
 
 $l['setting_group_userpruning'] = 'هرس‌کردن کاربر';
-$l['setting_group_userpruning_desc'] = 'User Pruning allows you to remove users from your forum meeting certain criteria. Here you can configure that criteria.';
+$l['setting_group_userpruning_desc'] = 'سیستم هرس کاربران به شما این اجازه را می دهد تا کاربران دارای معیارهای خاص را از انجمن خود حذف کنید. در این جا می توانید آن معیار ها را پیکربندی نمایید.';
 
-$l['setting_enablepruning'] = 'Enable user pruning?';
-$l['setting_enablepruning_desc'] = 'Set to on to prune users by the specified criteria below.';
-$l['setting_enableprunebyposts'] = 'Prune user by post count?';
-$l['setting_enableprunebyposts_desc'] = 'Set to on to prune users by their number of posts.';
-$l['setting_prunepostcount'] = 'Post count to prune by';
-$l['setting_prunepostcount_desc'] = 'Set to prune users less then a specified number of posts.';
-$l['setting_dayspruneregistered'] = 'Days registered before pruning by post count';
-$l['setting_dayspruneregistered_desc'] = 'Set to prune users whom have been registered for at least the given amount of days.';
-$l['setting_pruneunactived'] = 'Prune unactivated users?';
-$l['setting_pruneunactived_desc'] = 'Set to on to prune users whom are unactived.';
-$l['setting_dayspruneunactivated'] = 'Days registered before pruning unactivated users';
-$l['setting_dayspruneunactivated_desc'] = 'Set to prune users whom have been unactived for at least the given amount of days.';
-$l['setting_prunethreads'] = 'Prune User Posts/Threads';
-$l['setting_prunethreads_desc'] = 'For the users that are going to be removed, do you want to remove all of their posts/threads?';
+$l['setting_enablepruning'] = 'سیستم هرس کاربران فعال باشد؟';
+$l['setting_enablepruning_desc'] = 'برای هرس کاربران براساس معیارهای زیر، این گزینه را روی روشن قرار دهید.';
+$l['setting_enableprunebyposts'] = 'هرس کاربر براساس تعداد پست؟';
+$l['setting_enableprunebyposts_desc'] = 'برای هرس کاربران براساس تعداد پست های آنها، این گزینه را روی روشن قرار دهید.';
+$l['setting_prunepostcount'] = 'تعداد ارسال ها برای هرس کاربر';
+$l['setting_prunepostcount_desc'] = 'هرس کردن کاربرانی که کمتر از این تعداد، ارسال دارند: (عدد مورد نظر را وارد کنید)';
+$l['setting_dayspruneregistered'] = 'مقدار زمان عضویت جهت شامل شدن در طرح هرس بر اساس تعداد ارسال ها';
+$l['setting_dayspruneregistered_desc'] = 'کاربرانی که حداقل x روز از زمان ثبت نام آنها می گذرد شامل هرس شوند. (تعداد روز را وارد کنید)';
+$l['setting_pruneunactived'] = 'هرس کاربران فعال نشده؟';
+$l['setting_pruneunactived_desc'] = 'جهت هرس کاربران فعال نشده، این گزینه را روی روشن قرار دهید.';
+$l['setting_dayspruneunactivated'] = 'مقدار زمان عضویت جهت شامل شدن در طرح هرس برای کاربران فعال نشده';
+$l['setting_dayspruneunactivated_desc'] = 'کاربرانی که حداقل به مدت x روز غیر فعال بوده اند شامل هرس شوند. (تعداد روز را وارد کنید)';
+$l['setting_prunethreads'] = 'هرس ارسال ها / موضوعات کاربر';
+$l['setting_prunethreads_desc'] = 'آیا می خواهید تمامی ارسال ها / موضوعات کاربرانی که قرار است حذف شوند، پاک شوند؟';
 
 
 
