@@ -435,26 +435,26 @@ $l['setting_memberlistmaxavatarsize_desc'] = 'The maximum dimensions for avatars
 
 
 $l['setting_group_reputation'] = 'اعتبار';
-$l['setting_group_reputation_desc'] = 'The reputation system allows your users to rate others and leave a comment on the user. This section has settings to disable and change other aspects of the reputation page (reputation.php).';
+$l['setting_group_reputation_desc'] = 'سیستم اعتبار به کاربران اجازه می‌دهد که به یکدیگر به همراه نظری رتبه دهند. این بخش دارای تنظیماتی از قبیل غیرفعال‌سازی و دیگر موارد صفحه‌ی اعتبار می‌باشد (reputation.php).';
 
-$l['setting_enablereputation'] = 'Enable Reputation Functionality';
-$l['setting_enablereputation_desc'] = 'If you wish to disable the reputation system on your board, set this option to no.';
-$l['setting_posrep'] = 'Allow Positive Reputation';
-$l['setting_posrep_desc'] = 'Allow users to give others positive reputation?';
-$l['setting_negrep'] = 'Allow Negative Reputation';
-$l['setting_negrep_desc'] = 'Allow users to give others negative reputation?';
-$l['setting_neurep'] = 'Allow Neutral Reputation';
-$l['setting_neurep_desc'] = 'Allow users to give others neutral reputation?';
-$l['setting_multirep'] = 'Allow Multiple Reputation';
-$l['setting_multirep_desc'] = 'Can users give multiple reputations to the same user?<br />Note: Does not effect "Post" reputation';
-$l['setting_postrep'] = 'Allow Post Reputations';
-$l['setting_postrep_desc'] = 'Enable reputation to be linked to posts?';
-$l['setting_repsperpage'] = 'Reputation Comments Per Page';
-$l['setting_repsperpage_desc'] = 'Here you can enter the number of reputation comments to show per page on the reputation system';
-$l['setting_maxreplength'] = 'Maximum Reputation Length';
-$l['setting_maxreplength_desc'] = 'The maximum number of characters a reputation can be.';
-$l['setting_minreplength'] = 'Minimum Reputation Length';
-$l['setting_minreplength_desc'] = 'The minimum number of characters a reputation can be.';
+$l['setting_enablereputation'] = 'فعال‌سازی قابلیت اعتباردهی';
+$l['setting_enablereputation_desc'] = 'اگر شما می‌خواهید سیستم اعتبار‌ها را در انجمنتان غیرفعال کنید، این تنظیم را بر روی خیر قرار دهید.';
+$l['setting_posrep'] = 'امکان اعتبار مثبت';
+$l['setting_posrep_desc'] = 'اجازه‌دادن به کاربران برای اهدا اعتبار مثبت به یکدیگر؟';
+$l['setting_negrep'] = 'امکان اعتبار منفی';
+$l['setting_negrep_desc'] = 'اجازه دادن به کاربران برای اهدا اعتبار منفی به یکدیگر؟';
+$l['setting_neurep'] = 'امکان اعتبار خنثی';
+$l['setting_neurep_desc'] = 'اجازه دادن به کاربران برای اهدا اعتبار خنثی به یکدیگر؟';
+$l['setting_multirep'] = 'امکان اعتبار چندگانه';
+$l['setting_multirep_desc'] = 'آیا کاربران بتوانند چندین اعتبار به یک کاربر دهند؟<br />نکته: بر روی اعتباردهی از طریق ارسال تاثیری ندارد.';
+$l['setting_postrep'] = 'امکان اعتبار‌دهی به ارسال';
+$l['setting_postrep_desc'] = 'امکان پیوند کردن اعتبار‌ها به ارسال‌ها؟';
+$l['setting_repsperpage'] = 'نظر اعتبار‌ها در هر صفحه؟';
+$l['setting_repsperpage_desc'] = 'در اینجا شما می‌توانید تعداد اعتبار‌هایی که در هر صفحه از صفحه‌ی اعتبار نمایش داده شود را وارد فرمائید.';
+$l['setting_maxreplength'] = 'حداکثر طول اعتبار';
+$l['setting_maxreplength_desc'] = 'حداکثر تعداد حروفی که یک اعتبار می‌تواند داشته باشد.';
+$l['setting_minreplength'] = 'حداقل طول اعتبار';
+$l['setting_minreplength_desc'] = 'حداقل تعداد حروفی که یک اعتبار می‌تواند داشته‌باشد.';
 
 
 
