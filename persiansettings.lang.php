@@ -419,18 +419,18 @@ $l['setting_attachthumbw_desc'] = 'حداکثر عرض برای بندانگشت
 
 
 $l['setting_group_memberlist'] = 'لیست کاربران';
-$l['setting_group_memberlist_desc'] = 'This section allows you to control various aspects of the board member listing (memberlist.php), such as how many members to show per page, and which features to enable or disable.';
+$l['setting_group_memberlist_desc'] = 'این بخش به شما اجازه می‌دهد تا جنبه‌های مختلف از لیست اعضا را کنترل و مدیریت کنید (memberlist.php)، مانند تعداد کاربرانی که در هرصفحه از لیست نمایش داده شود یا چه ویژگی‌های فعال باشند و چه ویژگی‌هایی غیرفعال.';
 
-$l['setting_enablememberlist'] = 'Enable Member List Functionality';
-$l['setting_enablememberlist_desc'] = 'If you wish to disable the member list on your board, set this option to no.';
-$l['setting_membersperpage'] = 'Members Per Page';
-$l['setting_membersperpage_desc'] = 'The number of members to show per page on the member list.';
-$l['setting_default_memberlist_sortby'] = 'Default Sort Field';
-$l['setting_default_memberlist_sortby_desc'] = 'Select the field that you want members to be sorted by default.';
-$l['setting_default_memberlist_order'] = 'Default Sort Order';
-$l['setting_default_memberlist_order_desc'] = 'Select the order that you want members to be sorted by default.<br />Ascending: A-Z / beginning-end<br />Descending: Z-A / end-beginning';
-$l['setting_memberlistmaxavatarsize'] = 'Maximum Display Avatar Dimensions';
-$l['setting_memberlistmaxavatarsize_desc'] = 'The maximum dimensions for avatars when being displayed in the member list. If an avatar is too large, it will automatically be scaled down.';
+$l['setting_enablememberlist'] = 'فعال‌سازی ویژگی لیست کاربران';
+$l['setting_enablememberlist_desc'] = 'اگر شما می‌خواهید لیست کاربران را در انجمنتان غیرفعال سازید، این تنظیم را بر روی خیرقرار دهید.';
+$l['setting_membersperpage'] = 'کاربران در هر صفحه';
+$l['setting_membersperpage_desc'] = 'تعداد کاربرانی که در هر صفحه از لیست اعضا نمایش داده شوند.';
+$l['setting_default_memberlist_sortby'] = 'حالت پیش‌فرض مرتب سازی';
+$l['setting_default_memberlist_sortby_desc'] = 'فیلدی که می‌خواهید کاربران با آن به صورت پیش‌فرض مرتب شوند را وارد فرمائید.';
+$l['setting_default_memberlist_order'] = 'ترتیب پیش فرض مرتب‌سازی';
+$l['setting_default_memberlist_order_desc'] = 'ترتیبی که می‌خواهید کاربران به صورت پیش‌فرض با آن مرتب شوند را وارد فرمائید.<br />Ascending: A-Z / آغاز - پایان<br />Descending: Z-A / پایان - آغاز';
+$l['setting_memberlistmaxavatarsize'] = 'حداکثر ابعاد آواتارهای مورد نمایش';
+$l['setting_memberlistmaxavatarsize_desc'] = 'حداکثر اندازه‌ای از آواتارکاربران که در لیست کاربران نمایش داده شود. اگر یک آواتار خیلی بزرگ بود، به صورت خودکار کوچک خواهد شد.';
 
 
 
