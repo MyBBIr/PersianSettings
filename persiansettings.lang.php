@@ -236,16 +236,16 @@ $l['setting_multiquote'] = 'نمایش دکمه نقل قول چندگانه';
 $l['setting_multiquote_desc'] = 'دکمه‌ی نقل‌قول چندگانه به کاربران اجازه می‌دهد تا یک سری از ارسال‌ها را با کلیک بر روی دکمه‌ی پاسخ در پیامشان نقل قول کنند.';
 $l['setting_showsimilarthreads'] = 'نمایش جدول «موضوعات مشابه»';
 $l['setting_showsimilarthreads_desc'] = 'این جدول موضوعاتی که مشابه موضوع درحال خوانده شدن می‌باشد را نمایش می‌دهد. شما می‌توانید حالت مرتبط را در زیر انتخاب کنید.';
-$l['setting_similarityrating'] = 'Similar Threads Relevancy Rating';
-$l['setting_similarityrating_desc'] = 'This allows you to limit similar threads to ones more relevant (0 being not relevant). This number should not be over 10 and should not be set low (<5) for large forums. Does not apply to PgSQL databases.';
+$l['setting_similarityrating'] = 'موضوعات مشابه مشابه با رتبه';
+$l['setting_similarityrating_desc'] = 'این به شما اجازه می‌دهد تا محدودیت بیشتری برای موضوعات مشابه اعمال کنید (0 موضوعیتی ندارد). این عدد نباید بیش از 10 و نباید کمتر از  (<5) برای انجمن‌های بزرگ باشد. بر روی پایگاه‌داده‌های  PgSQL اعمال نمی‌شود.';
 $l['setting_similarlimit'] = 'محدودیت تعداد تاپیک های مشابه';
-$l['setting_similarlimit_desc'] = 'Here you can change the total amount of similar threads to be shown in the similar threads table. It is recommended that it is not over 15 for 56k users.';
-$l['setting_showforumpagesbreadcrumb'] = 'Show Forum Multipage Dropdown';
-$l['setting_showforumpagesbreadcrumb_desc'] = 'If the forum has more than 1 page of threads, do you want to display a dropdown pagination menu in the breadcrumbs?';
-$l['setting_browsingthisthread'] = 'Users Browsing this Thread';
-$l['setting_browsingthisthread_desc'] = 'Here you can turn off the \'users browsing this thread\' feature.';
-$l['setting_delayedthreadviews'] = 'Delayed Thread View Updates';
-$l['setting_delayedthreadviews_desc'] = 'If this setting is enabled, the number of thread views for threads will be updated in the background by the task schedule system. If not enabled, thread view counters are incremented instantly.';
+$l['setting_similarlimit_desc'] = 'در اینجا شما می‌توانید تعداد کل موضوعات مشابه که در جدول موضوعات مشابه نمایش داده شود را تغییر دهید. پیشنهاد می‌شود که این بیش از ۱۵ برا  56 هزار کاربر نباشد.';
+$l['setting_showforumpagesbreadcrumb'] = 'نمایش انجمن‌های چندصفحه‌ای به صورت کشویی';
+$l['setting_showforumpagesbreadcrumb_desc'] = 'اگر انجمن بیش از یک صفحه موضوع داشته باشد، آیا شما می‌خواهید که یک صفحه‌بندی کشویی در نوار پیمایش نشان داده شود؟';
+$l['setting_browsingthisthread'] = 'کاربرانی که درحال مشاهده این موضوع هستند';
+$l['setting_browsingthisthread_desc'] = 'در اینجا شما می‌توانید بازدیدکنندگان این موضوع را غیرفعال کنید.';
+$l['setting_delayedthreadviews'] = 'بروزرسانی تاخیری بازدید‌های موضوع';
+$l['setting_delayedthreadviews_desc'] = 'اگر این تنظیم فعال باشد، تعداد بازدید‌ها برای موضوعات در پس‌زمینه‌ی سیستم وظایف بروز خواهد شد. اگر فعال نباشد، بروزرسانی بازدید‌های موضوع فورا افزایش می‌یابد.';
 
 
 
