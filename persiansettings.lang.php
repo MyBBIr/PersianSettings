@@ -250,18 +250,18 @@ $l['setting_delayedthreadviews_desc'] = 'اگر این تنظیم فعال با�
 
 
 $l['setting_group_member'] = 'گزینه‌های ورود و ثبت‌نام';
-$l['setting_group_member_desc'] = 'Here you can control various settings with relation to user account registration and login management.';
+$l['setting_group_member_desc'] = 'در اینجا شما می‌توانید تنظیمات مختلف مربوط به ثبت‌نام کاربران و مدیریت ورودها انجام دهید.';
 
-$l['setting_disableregs'] = 'Disable Registrations';
-$l['setting_disableregs_desc'] = 'Allows you to turn off the capability for users to register with one click.';
-$l['setting_regtype'] = 'Registration Method';
-$l['setting_regtype_desc'] = 'Please select the method of registration to use when users register.';
-$l['setting_forcelogin'] = 'Force Users to Login';
-$l['setting_forcelogin_desc'] = 'Setting this to yes will force guests to login or register in order to access the board.';
-$l['setting_minnamelength'] = 'Minimum Username Length';
-$l['setting_minnamelength_desc'] = 'The minimum number of characters a username can be when a user registers.';
-$l['setting_maxnamelength'] = 'Maximum Username Length';
-$l['setting_maxnamelength_desc'] = 'The maximum number of characters a username can be when a user registers.';
+$l['setting_disableregs'] = 'غیرفعال‌سازی ثبت‌نام';
+$l['setting_disableregs_desc'] = 'به شما اجازه می‌دهد تا ثبت‌نام کردن کاربران با کلیک را غیرفعال کنید.';
+$l['setting_regtype'] = 'روش ثبت‌نام';
+$l['setting_regtype_desc'] = 'لطفا روشی که در ثبت‌نام استفاده شود را انتخاب کنید.';
+$l['setting_forcelogin'] = 'اجبار کاربران به ورود';
+$l['setting_forcelogin_desc'] = 'اگر این تنظیم را بر روی بله قرار دهید، مهمان ها به ورود یا عضویت برای دسترسی به انجمن مجبور می‌شوند.';
+$l['setting_minnamelength'] = 'حداقل طول نام‌کاربری';
+$l['setting_minnamelength_desc'] = 'حداقل تعداد حرف‌هایی که کاربر می‌تواند برای نام‌کاربری‌اش هنگام ثبت‌نام وارد کند را وارد فرمائید.';
+$l['setting_maxnamelength'] = 'حداکثر طول نام کاربری';
+$l['setting_maxnamelength_desc'] = 'حداکثر تعداد کاراکتری که کاربران بتوانند برای نام‌کاربری‌اشان در هنگام ثبت‌نام وارد کنند را وارد فرمائید.';
 $l['setting_minpasswordlength'] = 'Minimum Password Length';
 $l['setting_minpasswordlength_desc'] = 'The minimum number of characters a password should contain.';
 $l['setting_maxpasswordlength'] = 'Maximum Password Length';
