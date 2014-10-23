@@ -21,7 +21,7 @@ $l['setting_group_details'] = 'اطلاعات انجمن';
 $l['setting_group_details_desc'] = 'این بخش شامل تنظیمات مختلف از جمله نام انجمن شما و URL آن و همچنین نام وب‌سایت شما و URL آن است.';
 
 $l['setting_bbname'] = 'نام انجمن';
-$l['setting_bbname_desc'] = 'نام انجمن شما. ما پیشنهاد می‌کند که این بیش از ۷۵ کاراکتر نباشد.';
+$l['setting_bbname_desc'] = 'نام انجمن شما. ما پیشنهاد می‌کنیم که این بیش از ۷۵ کاراکتر نباشد.';
 $l['setting_bburl'] = 'URL انجمن';
 $l['setting_bburl_desc'] = 'آدرس URL انجمن‌های شما.<br />به همراه http://. و نباید دارای «اسلش» پایانی باشد.';
 $l['setting_homename'] = 'نام صفحه‌ی خانگی';
@@ -304,12 +304,12 @@ $l['setting_securityquestion_desc'] = 'Do you wish to show a question that users
 $l['setting_group_profile'] = 'گزینه‌های پروفایل';
 $l['setting_group_profile_desc'] = 'The options here control the various settings of user profiles around the forums.';
 
-$l['setting_sigmycode'] = 'Allow MyCode in Signatures';
-$l['setting_sigmycode_desc'] = 'Do you want to allow MyCode to be used in users\' signatures?';
+$l['setting_sigmycode'] = 'فعال بودن MyCode در امضا';
+$l['setting_sigmycode_desc'] = 'آیا کاربران میتوانند از MyCode در امضاء استفاده کنند؟';
 $l['setting_sigcountmycode'] = 'MyCode affects signature length';
 $l['setting_sigcountmycode_desc'] = 'Do you want MyCode to be counted as part of the limit when users use MyCode in their signature?';
-$l['setting_sigsmilies'] = 'Allow Smilies in Signatures';
-$l['setting_sigsmilies_desc'] = 'Do you want to allow smilies to be used in users\' signatures?';
+$l['setting_sigsmilies'] = 'فعال بودن شکلکها در امضا';
+$l['setting_sigsmilies_desc'] = 'آیا کاربران میتوانند از شکلکها در امضاء استفاده کنند؟';
 $l['setting_sightml'] = 'Allow HTML in Signatures';
 $l['setting_sightml_desc'] = 'Do you want to allow HTML to be used in users\' signatures?';
 $l['setting_sigimgcode'] = 'Allow [img] Code in Signatures';
