@@ -541,30 +541,30 @@ $l['setting_prunethreads_desc'] = 'آیا می خواهید تمامی ارسا�
 
 
 $l['setting_group_portal'] = 'تنظیمات سردر';
-$l['setting_group_portal_desc'] = 'The portal page compiles several different pieces of information about your forum, including latest posts, who\'s online, forum stats, announcements, and more. This section has settings to control the aspects of the portal page (portal.php).';
+$l['setting_group_portal_desc'] = 'صفحه‌ی سردر اطلاعات مختلف در مورد انجمن شما را در یک جا جمع‌آوری می‌کند، از جمله، کاربارن آنلاین، آمار انجمن، اطلاعیه‌ها و .... این بخش به شما اجازه می دهد تا این تنظیمات در مورد سردر را مدیریت کنید (portal.php).';
 
-$l['setting_portal'] = 'Enable Portal';
-$l['setting_portal_desc'] = 'If you wish to disable the portal on your board, set this option to no.';
-$l['setting_portal_announcementsfid'] = 'Forums to pull announcements from';
-$l['setting_portal_announcementsfid_desc'] = 'Please select the forums you wish to pull the announcements from.';
-$l['setting_portal_numannouncements'] = 'Number of announcements to show';
-$l['setting_portal_numannouncements_desc'] = 'Please enter the number of announcements to show per page on the main page.';
-$l['setting_portal_showwelcome'] = 'Show the Welcome box';
-$l['setting_portal_showwelcome_desc'] = 'Do you want to show the welcome box to visitors / users.';
-$l['setting_portal_showpms'] = 'Show the number of PMs to users';
-$l['setting_portal_showpms_desc'] = 'Do you want to show the number of private messages the current user has in their pm system.';
-$l['setting_portal_showstats'] = 'Show forum statistics';
-$l['setting_portal_showstats_desc'] = 'Do you want to show the total number of posts, threads, members and the last registered member on the portal page?';
-$l['setting_portal_showwol'] = 'Show Who\'s Online';
-$l['setting_portal_showwol_desc'] = 'Do you want to show the \'Who\'s online\' information to users when they visit the portal page?';
-$l['setting_portal_showsearch'] = 'Show Search Box';
-$l['setting_portal_showsearch_desc'] = 'Do you want to show the search box, allowing users to quickly search the forums on the portal?';
-$l['setting_portal_showdiscussions'] = 'Show Latest Discussions';
-$l['setting_portal_showdiscussions_desc'] = 'Do you wish to show the current forum discussions on the portal page?';
-$l['setting_portal_showdiscussionsnum'] = 'Number of latest discussions to show';
-$l['setting_portal_showdiscussionsnum_desc'] = 'Please enter the number of current forum discussions to show on the portal page.';
-$l['setting_portal_excludediscussion'] = 'Forums to exclude latest discussions from';
-$l['setting_portal_excludediscussion_desc'] = 'Please select the forums you wish to exclude from the current forum discussions box.';
+$l['setting_portal'] = 'فعال‌سازی سردر';
+$l['setting_portal_desc'] = 'اگر شما می‌خواهید سردر را بر روی انجمن خود غیرفعال کنید بر روی خیر قرار دهید.';
+$l['setting_portal_announcementsfid'] = 'انجمن‌هایی که اطلاعیه‌ها از آنها برداشته شود';
+$l['setting_portal_announcementsfid_desc'] = 'لطفا انجمن‌هایی که می‌خواهید اطلاعیه‌ها از آنها برداشته شود را وارد فرمائید.';
+$l['setting_portal_numannouncements'] = 'تعداد اطلاعیه‌ها برای نمایش';
+$l['setting_portal_numannouncements_desc'] = 'لطفا تعداد اطلاعیه‌هایی که در هر صفحه از سردر نمایش داده شود را وارد فرمائید.';
+$l['setting_portal_showwelcome'] = 'نمایش جعبه‌ی خوش‌آمد گویی';
+$l['setting_portal_showwelcome_desc'] = 'آیا شما می‌خواهید که جعبه‌ی خوش‌آمدگویی برای بازدیدکنندگان نمایش داده شود؟';
+$l['setting_portal_showpms'] = 'نمایش تعداد پیام‌های خصوصی به کاربران';
+$l['setting_portal_showpms_desc'] = 'آیا شما می‌خواهید تعداد پیام‌های خصوصی که کاربر در سیستم پیام‌خصوصی‌ دارد به او نمایش داده شود؟';
+$l['setting_portal_showstats'] = 'نمایش آمار انجمن';
+$l['setting_portal_showstats_desc'] = 'آیا شما می‌خواهید که تعداد ارسال‌ها، موضوع‌ها، کاربارن و آخرین کاربر عضو شده در سردر نمایش داده شود؟';
+$l['setting_portal_showwol'] = 'نمایش افراد حاضر';
+$l['setting_portal_showwol_desc'] = 'آیا شما می‌خواهید که اطلاعات افراد حاضر درا نجمن در صفحه‌ی سردر نمایش داده شود؟';
+$l['setting_portal_showsearch'] = 'نمایش جعبه‌ی جستجو';
+$l['setting_portal_showsearch_desc'] = 'آیا شما می‌خواهید که جعبه‌ی جستجو به منظور جستجوی سریعتر در سردر نمایش داده شود؟';
+$l['setting_portal_showdiscussions'] = 'نمایش آخرین صحبت‌ها';
+$l['setting_portal_showdiscussions_desc'] = 'آیا شما می‌خواهید که آخرین موضوعات انجمن در سردر نمایش داده شود؟';
+$l['setting_portal_showdiscussionsnum'] = 'تعداد آخرین صحبت‌ها برای نمایش';
+$l['setting_portal_showdiscussionsnum_desc'] = 'لطفا تعداد صحبت‌های کنونی که در سردر نمایش داده شود را وارد فرمائید.';
+$l['setting_portal_excludediscussion'] = 'انجمن‌های معاف از نمایش داده بحث‌آنها در آخرین بحث‌ها';
+$l['setting_portal_excludediscussion_desc'] = 'لطفا انجمن‌هایی که نمی‌خواهید موضوعاتشان در آخرین بحث‌ها نمایش داده شود را انتخاب فرمائید.';
 
 
 
@@ -638,11 +638,11 @@ $l['setting_loginattemptstimeout_desc'] = 'اگر تعداد تلاش های ک�
 
 
 $l['setting_group_mailsettings'] = 'تنظیمات ایمیل';
-$l['setting_group_mailsettings_desc'] = 'This section allows you to control various aspects of the MyBB mail system, such as sending with PHP mail or with a off server SMTP server.';
+$l['setting_group_mailsettings_desc'] = 'این بخش به شما اجازه می‌دهد تا سیستم ایمیل مای بی‌بی را کنترل کنید، به طول مثال ارسال به وسیله‌ی  PHP یا به وسیله‌ی سرور SMTP.';
 
-$l['setting_mail_handler'] = 'Mail handler';
-$l['setting_mail_handler_desc'] = 'The medium through which MyBB will send outgoing emails.';
-$l['setting_smtp_host'] = 'SMTP hostname';
+$l['setting_mail_handler'] = 'گرداننده‌ی ایمیل';
+$l['setting_mail_handler_desc'] = 'روشی که مای بی‌بی به وسیله‌ی آن ایمیل‌های خارجی را ارسال کند.';
+$l['setting_smtp_host'] = 'نام میزبان SMTP';
 $l['setting_smtp_host_desc'] = 'The hostname of the SMTP server through which mail should be sent.<br />Only required if SMTP Mail is selected as the Mail Handler.';
 $l['setting_smtp_port'] = 'SMTP port';
 $l['setting_smtp_port_desc'] = 'The port number of the SMTP server through which mail should be sent.<br />Only required if SMTP Mail is selected as the Mail Handler.';
@@ -654,10 +654,10 @@ $l['setting_secure_smtp'] = 'SMTP Encryption Mode';
 $l['setting_secure_smtp_desc'] = 'Select the encryption required to communicate with the SMTP server.<br />Only required if SMTP Mail is selected as the Mail Handler.';
 $l['setting_mail_parameters'] = 'Additional Parameters for PHP\'s mail()';
 $l['setting_mail_parameters_desc'] = 'This setting allows you to set additional parameters for the PHP mail() function. Only used when \'PHP mail\' is selected as Mail Handler. <a href="http://php.net/function.mail" target="_blank">More information</a>';
-$l['setting_mail_logging'] = 'Mail Logging';
-$l['setting_mail_logging_desc'] = 'This setting allows you to set how to log outgoing emails sent via the \'Send Thread to a Friend\' feature. In some countries it is illegal to log all content.';
-$l['setting_mail_message_id'] = 'Add message ID in mail headers';
-$l['setting_mail_message_id_desc'] = 'Disabling this option on some shared hosts resolves issues with forum emails being marked as spam.';
+$l['setting_mail_logging'] = 'ثبت ایمیل';
+$l['setting_mail_logging_desc'] = 'این تنظیم به شما اجازه می‌دهد تا چگونگی ثبت ایمیل‌های خروجی «ارسال موضوع به یک دوست» را تعیین کنید، در برخی از کشورها ثبت تمام مطالب غیرقانونی است.';
+$l['setting_mail_message_id'] = 'اضافه کردن ID در سرکدهای ایمیل';
+$l['setting_mail_message_id_desc'] = 'غیرفعال کردن این گزینه باعث می‌شود تا مشکل شناخته شده به عنوان اسپم بعضی از هاست‌های اشتراکی رفع شود.';
 
 
 
