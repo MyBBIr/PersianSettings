@@ -475,28 +475,28 @@ $l['setting_maxwarningpoints_desc'] = 'حداکثر مقدار اخطاری که
 
 
 $l['setting_group_privatemessaging'] = 'پیام خصوصی';
-$l['setting_group_privatemessaging_desc'] = 'Various options with relation to the MyBB Private Messaging system (private.php) can be managed and set here.';
+$l['setting_group_privatemessaging_desc'] = 'گزینه‌های مختلف در رابطه با سیستم پیام‌های خصوصی مای بی‌بی (private.php) که می‌تواند در اینجا مدیریت و تنظیم شود.';
 
-$l['setting_enablepms'] = 'Enable Private Messaging Functionality';
-$l['setting_enablepms_desc'] = 'If you wish to disable the private messaging system on your board, set this option to no.';
-$l['setting_pmquickreply'] = 'Show Quick Reply Form';
-$l['setting_pmquickreply_desc'] = 'Allows you to set whether or not the quick reply form will be shown at the bottom of PMs.';
-$l['setting_pmsallowhtml'] = 'Allow HTML';
-$l['setting_pmsallowhtml_desc'] = 'Selecting yes will allow HTML to be used in private messages.';
-$l['setting_pmsallowmycode'] = 'Allow MyCode';
-$l['setting_pmsallowmycode_desc'] = 'Selecting yes will allow MyCode to be used in private messages.';
-$l['setting_pmsallowsmilies'] = 'Allow Smilies';
-$l['setting_pmsallowsmilies_desc'] = 'Selecting yes will allow Smilies to be used in private messages.';
-$l['setting_pmsallowimgcode'] = 'Allow [img] Code';
-$l['setting_pmsallowimgcode_desc'] = 'Selecting yes will allow [img] Code to be used in private messages.';
-$l['setting_pmsallowvideocode'] = 'Allow [video] Code';
-$l['setting_pmsallowvideocode_desc'] = 'Selecting yes will allow [video] Code to be used in private messages.';
-$l['setting_pmfloodsecs'] = 'Private Message Flood Time';
-$l['setting_pmfloodsecs_desc'] = 'Set the time (in seconds) users have to wait between sending messages, to be in effect; set to 0 to disable.';
-$l['setting_showpmip'] = 'Show Private Message IP Addresses';
-$l['setting_showpmip_desc'] = 'Do you wish to show ip addresses of users who send private messages, and who you want to show ip addresses to?';
-$l['setting_maxpmquotedepth'] = 'Maximum PM Nested Quote Tags';
-$l['setting_maxpmquotedepth_desc'] = 'The maximum depth level for quote tags. When quote-replying to a PM, all nested quotes which exceed this threshold are automatically removed. Note that this value is only enforced when quote-replying - it is still possible to manually enter quotes to exceed this limit, and this setting will not affect PMs already sent. Set to 0 to disable.';
+$l['setting_enablepms'] = 'فعال‌سازی ویژگی پیام های خصوصی';
+$l['setting_enablepms_desc'] = 'اگر شما می‌خواهید سیستم ارسال پیام‌خصوصی را غیرفعال سازید، این تنظیم را بر روی خیر قرار دهید.';
+$l['setting_pmquickreply'] = 'نمایش فرم پاسخ سریع';
+$l['setting_pmquickreply_desc'] = 'اجازه می‌دهد تا نمایش داده‌شدن فرم پاسخ‌سریع به پیام خصوصی را زیر پیام‌خصوصی‌ها را فعال یا غیرفعال سازید.';
+$l['setting_pmsallowhtml'] = 'اجازه ارسال HTML';
+$l['setting_pmsallowhtml_desc'] = 'اگر بله را انتخاب کنید HTML برای پیام‌های خصوصی استفاده خواهد شد.';
+$l['setting_pmsallowmycode'] = 'اجازه استفاده از MyCode';
+$l['setting_pmsallowmycode_desc'] = 'اگر بله را انتخاب کنید، امکان استفاده از MyCode در پیام‌های خصوصی فراهم می‌شود.';
+$l['setting_pmsallowsmilies'] = 'اجازه استفاده از شکلک‌ها';
+$l['setting_pmsallowsmilies_desc'] = 'اگر بر روی بله قرار گیرد، امکان استفاده از شکلک‌ها در پیام‌های خصوصی فراهم خواهد شد.';
+$l['setting_pmsallowimgcode'] = 'اجازه استفاده از کد [img]';
+$l['setting_pmsallowimgcode_desc'] = 'اگر بر روی بله قرار گیرد، امکان استفاده از کد [img] در پیام‌های خصوصی فراهم خواهد شد.';
+$l['setting_pmsallowvideocode'] = 'اجازه استفاده از کد [video]';
+$l['setting_pmsallowvideocode_desc'] = 'اگر بر روی به قرار گیرد، امکان استفاده از کد [video] در پیام‌های خصوصی فراهم خواهد شد.';
+$l['setting_pmfloodsecs'] = 'زمان صبر پیام‌ خصوصی';
+$l['setting_pmfloodsecs_desc'] = 'زمانی (به ثانیه) که کاربران باید بین ارسال دو پیام صبر کنند را وارد فرمائید، برای اینکه کاری نکند؛ بر روی ۰ قرار دهید.';
+$l['setting_showpmip'] = 'نمایش IP پیام‌های خصوصی';
+$l['setting_showpmip_desc'] = 'آیا شما می خواهید IP کسی که پیام خصوصی را ارسال‌کرده و کسی که پیام خصوصی به او ارسال شده‌است نمایش داده شود؟';
+$l['setting_maxpmquotedepth'] = 'حداکثر تعداد نقل‌قول‌های تودرتو در پیام‌خصپصی';
+$l['setting_maxpmquotedepth_desc'] = 'حداکثر عمق برای تگ نقل قول. هنگام پاسخ‌دادن به یک پ.خ، همه‌ی نقل‌قول‌های تودرتو باید حذف شوند. دقت کنید که این تنظیم تنها بر روی پاسخ با نقل‌قول کار می‌کند - امکان ورود نقل‌قول‌هایی که از این محدودیت عبورکنند به صورت دستی وجود دارد، و این تنظیم بر روی پیام‌هایی که قبلا ارسال شده‌اند تاثیری نخواهد داشت. برای غیرفعال‌سازی بر روی ۰ قرار دهید.';
 
 
 
@@ -643,15 +643,15 @@ $l['setting_group_mailsettings_desc'] = 'این بخش به شما اجازه م
 $l['setting_mail_handler'] = 'گرداننده‌ی ایمیل';
 $l['setting_mail_handler_desc'] = 'روشی که مای بی‌بی به وسیله‌ی آن ایمیل‌های خارجی را ارسال کند.';
 $l['setting_smtp_host'] = 'نام میزبان SMTP';
-$l['setting_smtp_host_desc'] = 'The hostname of the SMTP server through which mail should be sent.<br />Only required if SMTP Mail is selected as the Mail Handler.';
-$l['setting_smtp_port'] = 'SMTP port';
-$l['setting_smtp_port_desc'] = 'The port number of the SMTP server through which mail should be sent.<br />Only required if SMTP Mail is selected as the Mail Handler.';
-$l['setting_smtp_user'] = 'SMTP username';
-$l['setting_smtp_user_desc'] = 'The username used to authenticate with the SMTP server.<br />Only required if SMTP Mail is selected as the Mail Handler, and the SMTP server requires authentication.';
-$l['setting_smtp_pass'] = 'SMTP password';
-$l['setting_smtp_pass_desc'] = 'The corresponding password used to authenticate with the SMTP server.<br />Only required if SMTP Mail is selected as the Mail Handler, and the SMTP server requires authentication.';
-$l['setting_secure_smtp'] = 'SMTP Encryption Mode';
-$l['setting_secure_smtp_desc'] = 'Select the encryption required to communicate with the SMTP server.<br />Only required if SMTP Mail is selected as the Mail Handler.';
+$l['setting_smtp_host_desc'] = 'نام میزبان سرور  SMTP که ایمیل‌ها به وسیله‌ی آن ارسال شود.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد.';
+$l['setting_smtp_port'] = 'پورت SMTP';
+$l['setting_smtp_port_desc'] = 'The port number of the SMTP server through which mail should be sent.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد.';
+$l['setting_smtp_user'] = 'نام‌کاربری SMTP';
+$l['setting_smtp_user_desc'] = 'The username used to authenticate with the SMTP server.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد, و سرور SMTP به احراز هویت نیاز داشته‌باشد.';
+$l['setting_smtp_pass'] = 'رمز‌عبور SMTP';
+$l['setting_smtp_pass_desc'] = 'The corresponding password used to authenticate with the SMTP server.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد, و سرور SMTP به احراز هویت نیاز داشته‌باشد.';
+$l['setting_secure_smtp'] = 'حالت رمزگذاری SMTP';
+$l['setting_secure_smtp_desc'] = 'Select the encryption required to communicate with the SMTP server.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد.';
 $l['setting_mail_parameters'] = 'Additional Parameters for PHP\'s mail()';
 $l['setting_mail_parameters_desc'] = 'This setting allows you to set additional parameters for the PHP mail() function. Only used when \'PHP mail\' is selected as Mail Handler. <a href="http://php.net/function.mail" target="_blank">More information</a>';
 $l['setting_mail_logging'] = 'ثبت ایمیل';
