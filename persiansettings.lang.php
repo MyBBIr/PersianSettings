@@ -4,7 +4,7 @@
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
- * Conributors: ATofighi, Big-Goal, Rahnamafard, MyBB, Mellat, Farsi200
+ * Conributors: ATofighi, Big-Goal, Rahnamafard, MyBB, Mr.Mostafa, Mellat, Farsi200
  */
 
 $l['setting_group_onlineoffline'] = 'حاضر/غایب بودن انجمن';
@@ -21,7 +21,7 @@ $l['setting_group_details'] = 'اطلاعات انجمن';
 $l['setting_group_details_desc'] = 'این بخش شامل تنظیمات مختلف از جمله نام انجمن شما و URL آن و همچنین نام وب‌سایت شما و URL آن است.';
 
 $l['setting_bbname'] = 'نام انجمن';
-$l['setting_bbname_desc'] = 'نام انجمن شما. ما پیشنهاد می‌کنیم که این بیش از ۷۵ کاراکتر نباشد.';
+$l['setting_bbname_desc'] = 'نام انجمن شما. ما پیشنهاد می‌کنیم که این بش از ۷۵ کاراکتر نباشد.';
 $l['setting_bburl'] = 'URL انجمن';
 $l['setting_bburl_desc'] = 'آدرس URL انجمن‌های شما.<br />به همراه http://. و نباید دارای «اسلش» پایانی باشد.';
 $l['setting_homename'] = 'نام صفحه‌ی خانگی';
@@ -292,50 +292,50 @@ $l['setting_failedlogincount'] = 'دفعات مجاز برای ورود نامو
 $l['setting_failedlogincount_desc'] = 'تعداد دفعات مجاز برای ورود ناموفق . برای غیرفعالسازی 0 را وارد کنید.';
 $l['setting_failedlogintime'] = 'زمان بین ورود‌های ناموفق';
 $l['setting_failedlogintime_desc'] = 'مقدار زمانی (به دقیقه) که یک فرد پس از آن بتواند تلاش به ورود مجدد کند.استفاده می‌شود اگر مقدار آن کمتر از  0 نباشد.';
-$l['setting_failedlogintext'] = 'Display number of failed logins';
-$l['setting_failedlogintext_desc'] = 'Do you wish to display a line of text telling the user how many more login attempts they have?';
-$l['setting_regtime'] = 'Minimum Registration Time';
-$l['setting_regtime_desc'] = 'The minimum time in seconds a user must take to fill out the registration form.  Used to prevent automated bot signups.  Setting this to 0 to disables the function.';
-$l['setting_securityquestion'] = 'Show Security Question';
-$l['setting_securityquestion_desc'] = 'Do you wish to show a question that users must answer when registering?';
+$l['setting_failedlogintext'] = 'نمایش تعداد ورود‌های ناموفق';
+$l['setting_failedlogintext_desc'] = 'آیا شما می‌خواهید تعداد ورود‌های ناموفق که هر فرد می‌تواند داشته باشد در یک خط برای کاربران گفته شود؟';
+$l['setting_regtime'] = 'حداقل زمان عضویت';
+$l['setting_regtime_desc'] = 'حداقل زمانی که کاربر باید در صفحه‌ی عضویت طی کند. برای جلوگیری از ثبت‌نام اسپمر‌ها استفاده می‌شود.  برای غیرفعال‌سازی این قابلیت این تنظیم را بر روی ۰ قرار دهید.';
+$l['setting_securityquestion'] = 'نمایش سوال امنیتی';
+$l['setting_securityquestion_desc'] = 'آیا شما می خواهید که سوال امنیتی که کاربران باید به آن پاسخ دهند در فرم ثبت‌نام نمایش داده';
 
 
 
 $l['setting_group_profile'] = 'گزینه‌های پروفایل';
-$l['setting_group_profile_desc'] = 'The options here control the various settings of user profiles around the forums.';
+$l['setting_group_profile_desc'] = 'این تنظیمات به شما در مدیریت تنظیمات مختلف پیرامون پروفایل‌کاربران کمک می‌کند.';
 
-$l['setting_sigmycode'] = 'فعال بودن MyCode در امضا';
-$l['setting_sigmycode_desc'] = 'آیا کاربران میتوانند از MyCode در امضاء استفاده کنند؟';
-$l['setting_sigcountmycode'] = 'MyCode affects signature length';
-$l['setting_sigcountmycode_desc'] = 'Do you want MyCode to be counted as part of the limit when users use MyCode in their signature?';
-$l['setting_sigsmilies'] = 'فعال بودن شکلکها در امضا';
-$l['setting_sigsmilies_desc'] = 'آیا کاربران میتوانند از شکلکها در امضاء استفاده کنند؟';
-$l['setting_sightml'] = 'فعال بودن HTML در امضا';
-$l['setting_sightml_desc'] = 'آیا کاربران میتوانند از HTML در امضاء استفاده کنند؟';
-$l['setting_sigimgcode'] = 'فعال بودن تگ [img] در امضا';
-$l['setting_sigimgcode_desc'] = 'آیا کاربران میتوانند از تگ [img] در امضاء استفاده کنند؟';
-$l['setting_maxsigimages'] = 'حداکثر تعداد عکس در امضا';
-$l['setting_maxsigimages_desc'] = 'حداکثر تعداد برای قرار دادن عکس در امضا.این گزینه شامل شکلکها میباشد.برای غیرفعالسازی 0 را وارد کنید.';
-$l['setting_siglength'] = 'طول امضا';
-$l['setting_siglength_desc'] = 'حداکثر کاراکتر که یک کاربر میتواند در امضا استفاده کند';
-$l['setting_useravatar'] = 'آواتار پیشفرض کاربر';
-$l['setting_useravatar_desc'] = 'اگر کاربر از آئاتار سفارشی استفاده نکند این عکس استفاده شود';
-$l['setting_useravatardims'] = 'اندازه ابعاد آواتار پیشفرض';
-$l['setting_useravatardims_desc'] = 'ابعاد آواتار پیشفرض.همراه با پهنا و ارتفاع (100|100(.';
-$l['setting_useravatarrating'] = 'Gravatar Rating';
-$l['setting_useravatarrating_desc'] = 'Allows you to set the maximum rating for Gravatars if a user chooses to use one. If a user avatar is higher than this rating a default avatar will be used. The ratings are:
+$l['setting_sigmycode'] = 'اجازه استفاده از مای‌کد در امضاها';
+$l['setting_sigmycode_desc'] = 'آیا شما می‌خواهید که اجازه‌دهید تا MyCode در امضای کاربران استفاده شود؟';
+$l['setting_sigcountmycode'] = 'MyCode در طول امضا اعمال شود؟';
+$l['setting_sigcountmycode_desc'] = 'آیا شما می‌خواهید که MyCode به عنوان بخشی از امضا در محدودیت طول امضا اعمال شود؟';
+$l['setting_sigsmilies'] = 'اجازه استفاده از شکلک‌ها در امضاها';
+$l['setting_sigsmilies_desc'] = 'آیا شما می خواهید که کاربران بتوانند از شکلک‌ها در امضایشان استفاده کنند؟';
+$l['setting_sightml'] = 'امکان استفاده از HTML در امضا‌ها';
+$l['setting_sightml_desc'] = 'آیا شما می‌خواهید که کاربران بتوانند از HTML در امضایشان استفاده کنند؟';
+$l['setting_sigimgcode'] = 'اجازه استفاده از کد [img] در امضا‌ها';
+$l['setting_sigimgcode_desc'] = 'آیا شما می‌خواهید که کاربران بتوانند از کد [img] در امضایشان استفاده کنند؟';
+$l['setting_maxsigimages'] = 'حداکثر تعداد عکس‌ها در امضاها';
+$l['setting_maxsigimages_desc'] = 'حداکثر تعداد عکس‌ها (شامل‌شکلک‌ها) که در امضا قابل استفاده باشد را وارد فرمائید. برای غیرفعال‌سازی عکس‌ها در شکلک‌ها بر روی ۰ قرار دهید.';
+$l['setting_siglength'] = 'محدودیت طول امضا';
+$l['setting_siglength_desc'] = 'حداکثر تعداد کاراکتر‌هایی که کاربر بتواند در امضای خود استفاده کند را وارد کنید.';
+$l['setting_useravatar'] = 'آواتار پیش‌فرض کاربران';
+$l['setting_useravatar_desc'] = 'اگر کاربری یک آواتار سفارشی برای خود انتخاب نکرده‌بود، این آواتار به جای آن استفاده خواهد شد.';
+$l['setting_useravatardims'] = 'اندازه‌های آواتار پیش فرض';
+$l['setting_useravatardims_desc'] = 'اندازه‌های آواتار پیش‌فرض؛ عرض در ارتفاع (مانند:  40|40).';
+$l['setting_useravatarrating'] = 'رتبه‌ی Gravatar';
+$l['setting_useravatarrating_desc'] = 'به شما اجازه می دهد تا حداکثر رتبه‌ی  Gravatar که کاربران بتوانند از ان استفاده کنند را تعیین کنید. اگر آواتار کاربر رتبه ای بیشتر از این رتبه داشت، آواتار پیش‌فرض استفاده خواهد شد. امتیاز‌ها عبارت اند از:
 
 <ul>
-<li><strong>G</strong>: suitable for display on all websites with any audience type</li>
-<li><strong>PG</strong>: may contain rude gestures, provocatively dressed individuals, the lesser swear words or mild violence</li>
-<li><strong>R</strong>: may contain such things as harsh profanity, intense violence, nudity or hard drug use</li>
-<li><strong>X</strong>: may contain hardcore sexual imagery or extremely disturbing violence</li>
+<li><strong>G</strong>: قابل نمایش برای همه‌ی سایت ها با هر موضوعی</li>
+<li><strong>PG</strong>: ممکن است شامل حرکات بی‌ادبی، لباس پوشیدن های تحریک برانگیز باشد کمتر شامل فحش و خشونت خفیف است.</li>
+<li><strong>R</strong>: ممکن است شامل فحش‌های خشن، خشونت شدید، برهنگی یا استفاده از مواد مخدر سخت باشد</li>
+<li><strong>X</strong>: ممکن است شامل تصاویر جنسی شدید یا خشونت بسیار نگران کننده باشد</li>
 </ul>';
-$l['setting_maxavatardims'] = 'Maximum Avatar Dimensions';
-$l['setting_maxavatardims_desc'] = 'The maximum dimensions that an avatar can be, in the format of width<b>x</b>height. If this is left blank then there will be no dimension restriction.';
-$l['setting_avatarsize'] = 'Max Uploaded Avatar Size';
-$l['setting_avatarsize_desc'] = 'Maximum file size (in kilobytes) of uploaded avatars.';
-$l['setting_avatarresizing'] = 'Avatar Resizing Mode';
+$l['setting_maxavatardims'] = 'حداکثر اندازه‌ی آواتار‌ها';
+$l['setting_maxavatardims_desc'] = 'حداکثر اندازه‌ای که آواتار بتواند داشته باشد، در فرمت عرض<b>x</b>ارتفاع. اگر این فیلد خالی باشد، محدودیتی برای ابعاد به وجود نمی‌آید.';
+$l['setting_avatarsize'] = 'حداکثر حجم فایل آواتار آپلود‌شده';
+$l['setting_avatarsize_desc'] = 'حداکثر اندازه حجم (به کیلوبایت) برای آواتارهای آپلودی.';
+$l['setting_avatarresizing'] = 'حالت تغییر اندازه‌ی آواتار';
 $l['setting_avatarresizing_desc'] = 'If you wish to automatically resize all large avatars, provide users the option of resizing their avatar, or not resize avatars at all you can change this setting.';
 $l['setting_avataruploadpath'] = 'Avatar Upload Path';
 $l['setting_avataruploadpath_desc'] = 'This is the path where custom avatars will be uploaded to. This directory <b>must be chmod 777</b> (writable) for uploads to work.';
