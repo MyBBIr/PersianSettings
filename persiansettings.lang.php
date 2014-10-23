@@ -459,18 +459,18 @@ $l['setting_minreplength_desc'] = 'حداقل تعداد حروفی که یک ا
 
 
 $l['setting_group_warning'] = 'تنظیمات سیستم اخطار';
-$l['setting_group_warning_desc'] = 'The warning system allows forum staff to warn users for rule violations. Here you can manage the settings that control the warning system (warnings.php).';
+$l['setting_group_warning_desc'] = 'سیستم اخطار به مدیران اجازه می‌دهد تا برای تخلفات به کاربران اخطار دهند. در اینجا تنظیماتی برای کنترل سیستم اخطار وجود دارد (warnings.php).';
 
-$l['setting_enablewarningsystem'] = 'Enable Warning System?';
-$l['setting_enablewarningsystem_desc'] = 'Set to no to completely disable the warning system.';
-$l['setting_allowcustomwarnings'] = 'Allow Custom Warning Types?';
-$l['setting_allowcustomwarnings_desc'] = 'Allow a custom reason and amount of points to be specified by those with permissions to warn users.';
-$l['setting_canviewownwarning'] = 'Can Users View Own Warnings?';
-$l['setting_canviewownwarning_desc'] = 'Set to yes to allow users to view recent warnings in their User CP and show their warning level to them in their profile.';
-$l['setting_allowanonwarningpms'] = 'Allow Anonymous Warning PMs';
-$l['setting_allowanonwarningpms_desc'] = 'Allow moderators to send anonymous warning PMs.';
-$l['setting_maxwarningpoints'] = 'Maximum Warning Points';
-$l['setting_maxwarningpoints_desc'] = 'The maximum warning points that can be given to a user before it is considered a warning level of 100%.';
+$l['setting_enablewarningsystem'] = 'فعال‌سازی سیستم اخطار؟';
+$l['setting_enablewarningsystem_desc'] = 'برای غیرفعال‌سازی کامل سیستم اخطار بر روی خیرقرار دهید.';
+$l['setting_allowcustomwarnings'] = 'اجازه دادن به انواع سفارشی اخطار؟';
+$l['setting_allowcustomwarnings_desc'] = 'آیا شما می‌خواهید به کسانی که مجوز اخطار‌دادن دارند، اجازه دهید تا دلیل و مقدار اخطار سفارشی‌ای را وارد کنند؟';
+$l['setting_canviewownwarning'] = 'کاربران بتوانند اخطار خود را ببینند؟';
+$l['setting_canviewownwarning_desc'] = 'اگر برروی بله قرار دهید، درصد اخطار کاربران در پروفایل و کنترل پنلشان برایشان نمایش داده خواهد شد.';
+$l['setting_allowanonwarningpms'] = 'اجازه‌ی ارسال پیام‌خصوصی اخطار به صورت ناشناس';
+$l['setting_allowanonwarningpms_desc'] = 'به مدیران اجازه می‌دهد تا پیام‌خصوصی اخطار را به صورت ناشناس ارسال کنند.';
+$l['setting_maxwarningpoints'] = 'حداکثر مقدار اخطار';
+$l['setting_maxwarningpoints_desc'] = 'حداکثر مقدار اخطاری که کاربر می تواند قبل از اینکه درصد اخطار او به  100% برسد بگیرد.';
 
 
 
